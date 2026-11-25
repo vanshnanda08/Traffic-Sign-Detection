@@ -1,0 +1,21 @@
+{
+  "source": "data/raw/Indian Traffic Sign.v1i.yolov8.zip",
+  "source_url": "https://universe.roboflow.com/sdi/indian-traffic-sign/dataset/1",
+  "expected_workspace": "sdi",
+  "expected_project": "indian-traffic-sign",
+  "expected_version": 1,
+  "expected_license": "CC BY 4.0",
+  "faculty_approval": "Approved, as reported by the student on 2026-11-20",
+  "audit_dir": "results/dataset",
+  "output_dir": "data/processed/p57_core300",
+  "seed": 42,
+  "class_count": 6,
+  "max_speed_limit_classes": 2,
+  "split_counts": {"train": 210, "val": 45, "test": 45},
+  "phash_distance": 6,
+  "dhash_distance": 10,
+  "scene_matching": {"image_size": 256, "features": 180, "neighbors": 8, "candidates_per_image": 25, "ratio": 0.7, "min_inliers": 10, "min_inlier_fraction": 0.65, "min_coverage": 0.06},
+  "source_split_policy": "quarantine every group touching source test; rebuild train/val from remaining source train+val groups",
+  "selection": "rank independent development/test support; cap speed-limit classes at two; balance with capacity limits; sample framing/sharpness strata; one image per related group",
+  "image_policy": "copy source export bytes unchanged; no augmentation, resizing, recompression or label geometry edits"
+}

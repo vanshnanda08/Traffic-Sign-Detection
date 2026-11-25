@@ -1,0 +1,22 @@
+{
+  "status": "overlap risk screening, not reference training or proof of independence",
+  "seed": 42,
+  "phash_distance": 6,
+  "dhash_distance": 10,
+  "normalized_size": 64,
+  "geometry_size": 128,
+  "pixel_mae_max": 6.0,
+  "pixel_correlation_min": 0.98,
+  "geometry_mae_max": 25.0,
+  "geometry_correlation_min": 0.88,
+  "geometry_ratio": 0.7,
+  "geometry_min_inliers": 10,
+  "geometry_min_inlier_fraction": 0.65,
+  "geometry_min_coverage": 0.06,
+  "minimum_gray_std": 10.0,
+  "candidate_class_ids": {"0": 38, "1": 17, "3": 40, "4": 1, "5": 5},
+  "roundabout": "40 is conditional and not an entire-class mapping",
+  "track_exclusion_policy": "Any accepted potential training overlap excludes every available image of the full class/track key",
+  "crop_policy": "Official full image and inclusive ROI crop versus Indian full image and every labeled box crop, independently stretched to 64x64",
+  "limitations": ["Perceptual screening is exhaustive under its hash gates, not exhaustive geometric matching", "Generic sign designs can produce false positives; exclusions are conservative potential overlaps", "Crops, JPEG compression, viewpoint changes and unknown upstream provenance can cause misses", "Final GTSRB test files lack original training-track identifiers; no invented track assignment"]
+}

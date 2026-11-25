@@ -1,0 +1,7 @@
+{
+  "core": "data/processed/p57_core300_v2",
+  "checkpoints": {
+    "A": "results/main_ac_recovery_v2/A/fit/weights/best.pt",
+    "C": "results/main_ac_recovery_v2/C/fit/weights/best.pt"
+  }
+}

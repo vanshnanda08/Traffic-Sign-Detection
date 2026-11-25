@@ -1,0 +1,674 @@
+[
+  {
+    "claim": "A_clean/mAP50",
+    "value_fraction": 0.9802631578947368,
+    "source": "metrics/A_clean.json",
+    "json_field": "aggregate.mAP50",
+    "executed_log": "logs/A_clean_stdout.log",
+    "stderr": "logs/A_clean_stderr.log",
+    "original_predictions_sha256": "2f4bdaa270b46722ba967a64eefc1e99a9165fed3f7f71961589d9fbc16be5c3",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_clean/precision",
+    "value_fraction": 0.9766200008849252,
+    "source": "metrics/A_clean.json",
+    "json_field": "aggregate.precision",
+    "executed_log": "logs/A_clean_stdout.log",
+    "stderr": "logs/A_clean_stderr.log",
+    "original_predictions_sha256": "2f4bdaa270b46722ba967a64eefc1e99a9165fed3f7f71961589d9fbc16be5c3",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_clean/recall",
+    "value_fraction": 0.9710711979116095,
+    "source": "metrics/A_clean.json",
+    "json_field": "aggregate.recall",
+    "executed_log": "logs/A_clean_stdout.log",
+    "stderr": "logs/A_clean_stderr.log",
+    "original_predictions_sha256": "2f4bdaa270b46722ba967a64eefc1e99a9165fed3f7f71961589d9fbc16be5c3",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_clean/mAP50_95",
+    "value_fraction": 0.8386508282430983,
+    "source": "metrics/A_clean.json",
+    "json_field": "aggregate.mAP50_95",
+    "executed_log": "logs/A_clean_stdout.log",
+    "stderr": "logs/A_clean_stderr.log",
+    "original_predictions_sha256": "2f4bdaa270b46722ba967a64eefc1e99a9165fed3f7f71961589d9fbc16be5c3",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_clean/runtime_including_cleanup_seconds",
+    "value": 16.184962875006022,
+    "source": "processes/A_clean_exit.json",
+    "json_field": "elapsed_seconds_including_cleanup"
+  },
+  {
+    "claim": "C_clean/mAP50",
+    "value_fraction": 0.9628156565656565,
+    "source": "metrics/C_clean.json",
+    "json_field": "aggregate.mAP50",
+    "executed_log": "logs/C_clean_stdout.log",
+    "stderr": "logs/C_clean_stderr.log",
+    "original_predictions_sha256": "2219b27a5ac4504d03f373ee5749f26e1a60aeec5c9f9af23254b81aefff4e8c",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_clean/precision",
+    "value_fraction": 0.9208046706530353,
+    "source": "metrics/C_clean.json",
+    "json_field": "aggregate.precision",
+    "executed_log": "logs/C_clean_stdout.log",
+    "stderr": "logs/C_clean_stderr.log",
+    "original_predictions_sha256": "2219b27a5ac4504d03f373ee5749f26e1a60aeec5c9f9af23254b81aefff4e8c",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_clean/recall",
+    "value_fraction": 0.9330605774819807,
+    "source": "metrics/C_clean.json",
+    "json_field": "aggregate.recall",
+    "executed_log": "logs/C_clean_stdout.log",
+    "stderr": "logs/C_clean_stderr.log",
+    "original_predictions_sha256": "2219b27a5ac4504d03f373ee5749f26e1a60aeec5c9f9af23254b81aefff4e8c",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_clean/mAP50_95",
+    "value_fraction": 0.8176961692048258,
+    "source": "metrics/C_clean.json",
+    "json_field": "aggregate.mAP50_95",
+    "executed_log": "logs/C_clean_stdout.log",
+    "stderr": "logs/C_clean_stderr.log",
+    "original_predictions_sha256": "2219b27a5ac4504d03f373ee5749f26e1a60aeec5c9f9af23254b81aefff4e8c",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_clean/runtime_including_cleanup_seconds",
+    "value": 14.905810083000688,
+    "source": "processes/C_clean_exit.json",
+    "json_field": "elapsed_seconds_including_cleanup"
+  },
+  {
+    "claim": "A_F1/mAP50",
+    "value_fraction": 0.9794444444444445,
+    "source": "metrics/A_F1.json",
+    "json_field": "aggregate.mAP50",
+    "executed_log": "logs/A_F1_stdout.log",
+    "stderr": "logs/A_F1_stderr.log",
+    "original_predictions_sha256": "e5c10abd03cad4bf8983d77a43e8063314c9fdb9ed03cb8cb38312b449889d53",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_F1/precision",
+    "value_fraction": 0.9768636840517687,
+    "source": "metrics/A_F1.json",
+    "json_field": "aggregate.precision",
+    "executed_log": "logs/A_F1_stdout.log",
+    "stderr": "logs/A_F1_stderr.log",
+    "original_predictions_sha256": "e5c10abd03cad4bf8983d77a43e8063314c9fdb9ed03cb8cb38312b449889d53",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_F1/recall",
+    "value_fraction": 0.9755001363739257,
+    "source": "metrics/A_F1.json",
+    "json_field": "aggregate.recall",
+    "executed_log": "logs/A_F1_stdout.log",
+    "stderr": "logs/A_F1_stderr.log",
+    "original_predictions_sha256": "e5c10abd03cad4bf8983d77a43e8063314c9fdb9ed03cb8cb38312b449889d53",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_F1/mAP50_95",
+    "value_fraction": 0.8376180633108815,
+    "source": "metrics/A_F1.json",
+    "json_field": "aggregate.mAP50_95",
+    "executed_log": "logs/A_F1_stdout.log",
+    "stderr": "logs/A_F1_stderr.log",
+    "original_predictions_sha256": "e5c10abd03cad4bf8983d77a43e8063314c9fdb9ed03cb8cb38312b449889d53",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_F1/runtime_including_cleanup_seconds",
+    "value": 14.802488874993287,
+    "source": "processes/A_F1_exit.json",
+    "json_field": "elapsed_seconds_including_cleanup"
+  },
+  {
+    "claim": "C_F1/mAP50",
+    "value_fraction": 0.9713020833333332,
+    "source": "metrics/C_F1.json",
+    "json_field": "aggregate.mAP50",
+    "executed_log": "logs/C_F1_stdout.log",
+    "stderr": "logs/C_F1_stderr.log",
+    "original_predictions_sha256": "0770810b3ec4eae31caeb121f34030eb335c7fefb1a624f9ea47709c7f631ceb",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_F1/precision",
+    "value_fraction": 0.9264939406343086,
+    "source": "metrics/C_F1.json",
+    "json_field": "aggregate.precision",
+    "executed_log": "logs/C_F1_stdout.log",
+    "stderr": "logs/C_F1_stderr.log",
+    "original_predictions_sha256": "0770810b3ec4eae31caeb121f34030eb335c7fefb1a624f9ea47709c7f631ceb",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_F1/recall",
+    "value_fraction": 0.9528812651451379,
+    "source": "metrics/C_F1.json",
+    "json_field": "aggregate.recall",
+    "executed_log": "logs/C_F1_stdout.log",
+    "stderr": "logs/C_F1_stderr.log",
+    "original_predictions_sha256": "0770810b3ec4eae31caeb121f34030eb335c7fefb1a624f9ea47709c7f631ceb",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_F1/mAP50_95",
+    "value_fraction": 0.8202026717699819,
+    "source": "metrics/C_F1.json",
+    "json_field": "aggregate.mAP50_95",
+    "executed_log": "logs/C_F1_stdout.log",
+    "stderr": "logs/C_F1_stderr.log",
+    "original_predictions_sha256": "0770810b3ec4eae31caeb121f34030eb335c7fefb1a624f9ea47709c7f631ceb",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_F1/runtime_including_cleanup_seconds",
+    "value": 14.361141750006936,
+    "source": "processes/C_F1_exit.json",
+    "json_field": "elapsed_seconds_including_cleanup"
+  },
+  {
+    "claim": "A_F2/mAP50",
+    "value_fraction": 0.9758514492753624,
+    "source": "metrics/A_F2.json",
+    "json_field": "aggregate.mAP50",
+    "executed_log": "logs/A_F2_stdout.log",
+    "stderr": "logs/A_F2_stderr.log",
+    "original_predictions_sha256": "6ffbe4734c2ff96127a18404bbd3d36e7c977edd0992fddc3291b55c9d718fd0",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_F2/precision",
+    "value_fraction": 0.9438603844932677,
+    "source": "metrics/A_F2.json",
+    "json_field": "aggregate.precision",
+    "executed_log": "logs/A_F2_stdout.log",
+    "stderr": "logs/A_F2_stderr.log",
+    "original_predictions_sha256": "6ffbe4734c2ff96127a18404bbd3d36e7c977edd0992fddc3291b55c9d718fd0",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_F2/recall",
+    "value_fraction": 0.9423084073570828,
+    "source": "metrics/A_F2.json",
+    "json_field": "aggregate.recall",
+    "executed_log": "logs/A_F2_stdout.log",
+    "stderr": "logs/A_F2_stderr.log",
+    "original_predictions_sha256": "6ffbe4734c2ff96127a18404bbd3d36e7c977edd0992fddc3291b55c9d718fd0",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_F2/mAP50_95",
+    "value_fraction": 0.8261116366014954,
+    "source": "metrics/A_F2.json",
+    "json_field": "aggregate.mAP50_95",
+    "executed_log": "logs/A_F2_stdout.log",
+    "stderr": "logs/A_F2_stderr.log",
+    "original_predictions_sha256": "6ffbe4734c2ff96127a18404bbd3d36e7c977edd0992fddc3291b55c9d718fd0",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_F2/runtime_including_cleanup_seconds",
+    "value": 14.350422833987977,
+    "source": "processes/A_F2_exit.json",
+    "json_field": "elapsed_seconds_including_cleanup"
+  },
+  {
+    "claim": "C_F2/mAP50",
+    "value_fraction": 0.9624378109452736,
+    "source": "metrics/C_F2.json",
+    "json_field": "aggregate.mAP50",
+    "executed_log": "logs/C_F2_stdout.log",
+    "stderr": "logs/C_F2_stderr.log",
+    "original_predictions_sha256": "4dea1ec00e175374b75aa133715a455e9fa8efa7489a7f39bad3e0ca310d7caa",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_F2/precision",
+    "value_fraction": 0.9114014486451852,
+    "source": "metrics/C_F2.json",
+    "json_field": "aggregate.precision",
+    "executed_log": "logs/C_F2_stdout.log",
+    "stderr": "logs/C_F2_stderr.log",
+    "original_predictions_sha256": "4dea1ec00e175374b75aa133715a455e9fa8efa7489a7f39bad3e0ca310d7caa",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_F2/recall",
+    "value_fraction": 0.9523809523809524,
+    "source": "metrics/C_F2.json",
+    "json_field": "aggregate.recall",
+    "executed_log": "logs/C_F2_stdout.log",
+    "stderr": "logs/C_F2_stderr.log",
+    "original_predictions_sha256": "4dea1ec00e175374b75aa133715a455e9fa8efa7489a7f39bad3e0ca310d7caa",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_F2/mAP50_95",
+    "value_fraction": 0.8219787944519452,
+    "source": "metrics/C_F2.json",
+    "json_field": "aggregate.mAP50_95",
+    "executed_log": "logs/C_F2_stdout.log",
+    "stderr": "logs/C_F2_stderr.log",
+    "original_predictions_sha256": "4dea1ec00e175374b75aa133715a455e9fa8efa7489a7f39bad3e0ca310d7caa",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_F2/runtime_including_cleanup_seconds",
+    "value": 14.157489583012648,
+    "source": "processes/C_F2_exit.json",
+    "json_field": "elapsed_seconds_including_cleanup"
+  },
+  {
+    "claim": "A_F3/mAP50",
+    "value_fraction": 0.9665594541910331,
+    "source": "metrics/A_F3.json",
+    "json_field": "aggregate.mAP50",
+    "executed_log": "logs/A_F3_stdout.log",
+    "stderr": "logs/A_F3_stderr.log",
+    "original_predictions_sha256": "0443e40ed534f882c2786a3100c8b20f43b0e7a405d665202fd8192a470b7ed5",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_F3/precision",
+    "value_fraction": 0.9132604585675511,
+    "source": "metrics/A_F3.json",
+    "json_field": "aggregate.precision",
+    "executed_log": "logs/A_F3_stdout.log",
+    "stderr": "logs/A_F3_stderr.log",
+    "original_predictions_sha256": "0443e40ed534f882c2786a3100c8b20f43b0e7a405d665202fd8192a470b7ed5",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_F3/recall",
+    "value_fraction": 0.9032883024096227,
+    "source": "metrics/A_F3.json",
+    "json_field": "aggregate.recall",
+    "executed_log": "logs/A_F3_stdout.log",
+    "stderr": "logs/A_F3_stderr.log",
+    "original_predictions_sha256": "0443e40ed534f882c2786a3100c8b20f43b0e7a405d665202fd8192a470b7ed5",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_F3/mAP50_95",
+    "value_fraction": 0.7591548879907208,
+    "source": "metrics/A_F3.json",
+    "json_field": "aggregate.mAP50_95",
+    "executed_log": "logs/A_F3_stdout.log",
+    "stderr": "logs/A_F3_stderr.log",
+    "original_predictions_sha256": "0443e40ed534f882c2786a3100c8b20f43b0e7a405d665202fd8192a470b7ed5",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_F3/runtime_including_cleanup_seconds",
+    "value": 14.152206832979573,
+    "source": "processes/A_F3_exit.json",
+    "json_field": "elapsed_seconds_including_cleanup"
+  },
+  {
+    "claim": "C_F3/mAP50",
+    "value_fraction": 0.9289999999999999,
+    "source": "metrics/C_F3.json",
+    "json_field": "aggregate.mAP50",
+    "executed_log": "logs/C_F3_stdout.log",
+    "stderr": "logs/C_F3_stderr.log",
+    "original_predictions_sha256": "f649b623e7e16a509601685659fd50487c7085faefef66bc8ca564cac1d49608",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_F3/precision",
+    "value_fraction": 0.8261868736286927,
+    "source": "metrics/C_F3.json",
+    "json_field": "aggregate.precision",
+    "executed_log": "logs/C_F3_stdout.log",
+    "stderr": "logs/C_F3_stderr.log",
+    "original_predictions_sha256": "f649b623e7e16a509601685659fd50487c7085faefef66bc8ca564cac1d49608",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_F3/recall",
+    "value_fraction": 0.8972895405624688,
+    "source": "metrics/C_F3.json",
+    "json_field": "aggregate.recall",
+    "executed_log": "logs/C_F3_stdout.log",
+    "stderr": "logs/C_F3_stderr.log",
+    "original_predictions_sha256": "f649b623e7e16a509601685659fd50487c7085faefef66bc8ca564cac1d49608",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_F3/mAP50_95",
+    "value_fraction": 0.7912022384706537,
+    "source": "metrics/C_F3.json",
+    "json_field": "aggregate.mAP50_95",
+    "executed_log": "logs/C_F3_stdout.log",
+    "stderr": "logs/C_F3_stderr.log",
+    "original_predictions_sha256": "f649b623e7e16a509601685659fd50487c7085faefef66bc8ca564cac1d49608",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_F3/runtime_including_cleanup_seconds",
+    "value": 14.159644166997168,
+    "source": "processes/C_F3_exit.json",
+    "json_field": "elapsed_seconds_including_cleanup"
+  },
+  {
+    "claim": "A_O1/mAP50",
+    "value_fraction": 0.9748484848484847,
+    "source": "metrics/A_O1.json",
+    "json_field": "aggregate.mAP50",
+    "executed_log": "logs/A_O1_stdout.log",
+    "stderr": "logs/A_O1_stderr.log",
+    "original_predictions_sha256": "b9d93751f5095404b7cb1ffaf1c387d66f81d2812ed8fde203f03ba95f39a2ab",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_O1/precision",
+    "value_fraction": 0.9200932212193034,
+    "source": "metrics/A_O1.json",
+    "json_field": "aggregate.precision",
+    "executed_log": "logs/A_O1_stdout.log",
+    "stderr": "logs/A_O1_stderr.log",
+    "original_predictions_sha256": "b9d93751f5095404b7cb1ffaf1c387d66f81d2812ed8fde203f03ba95f39a2ab",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_O1/recall",
+    "value_fraction": 0.9722730121835994,
+    "source": "metrics/A_O1.json",
+    "json_field": "aggregate.recall",
+    "executed_log": "logs/A_O1_stdout.log",
+    "stderr": "logs/A_O1_stderr.log",
+    "original_predictions_sha256": "b9d93751f5095404b7cb1ffaf1c387d66f81d2812ed8fde203f03ba95f39a2ab",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_O1/mAP50_95",
+    "value_fraction": 0.8062682305564868,
+    "source": "metrics/A_O1.json",
+    "json_field": "aggregate.mAP50_95",
+    "executed_log": "logs/A_O1_stdout.log",
+    "stderr": "logs/A_O1_stderr.log",
+    "original_predictions_sha256": "b9d93751f5095404b7cb1ffaf1c387d66f81d2812ed8fde203f03ba95f39a2ab",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_O1/runtime_including_cleanup_seconds",
+    "value": 14.143872667016694,
+    "source": "processes/A_O1_exit.json",
+    "json_field": "elapsed_seconds_including_cleanup"
+  },
+  {
+    "claim": "C_O1/mAP50",
+    "value_fraction": 0.9711021505376345,
+    "source": "metrics/C_O1.json",
+    "json_field": "aggregate.mAP50",
+    "executed_log": "logs/C_O1_stdout.log",
+    "stderr": "logs/C_O1_stderr.log",
+    "original_predictions_sha256": "783704a4cd603c6d65a375ad32836bd38e945d27aa2b9ebae96b6b4132bed6ff",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_O1/precision",
+    "value_fraction": 0.9131527790616677,
+    "source": "metrics/C_O1.json",
+    "json_field": "aggregate.precision",
+    "executed_log": "logs/C_O1_stdout.log",
+    "stderr": "logs/C_O1_stderr.log",
+    "original_predictions_sha256": "783704a4cd603c6d65a375ad32836bd38e945d27aa2b9ebae96b6b4132bed6ff",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_O1/recall",
+    "value_fraction": 0.94011312279092,
+    "source": "metrics/C_O1.json",
+    "json_field": "aggregate.recall",
+    "executed_log": "logs/C_O1_stdout.log",
+    "stderr": "logs/C_O1_stderr.log",
+    "original_predictions_sha256": "783704a4cd603c6d65a375ad32836bd38e945d27aa2b9ebae96b6b4132bed6ff",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_O1/mAP50_95",
+    "value_fraction": 0.8343585393358095,
+    "source": "metrics/C_O1.json",
+    "json_field": "aggregate.mAP50_95",
+    "executed_log": "logs/C_O1_stdout.log",
+    "stderr": "logs/C_O1_stderr.log",
+    "original_predictions_sha256": "783704a4cd603c6d65a375ad32836bd38e945d27aa2b9ebae96b6b4132bed6ff",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_O1/runtime_including_cleanup_seconds",
+    "value": 14.965707624971401,
+    "source": "processes/C_O1_exit.json",
+    "json_field": "elapsed_seconds_including_cleanup"
+  },
+  {
+    "claim": "A_O2/mAP50",
+    "value_fraction": 0.9361915985158261,
+    "source": "metrics/A_O2.json",
+    "json_field": "aggregate.mAP50",
+    "executed_log": "logs/A_O2_stdout.log",
+    "stderr": "logs/A_O2_stderr.log",
+    "original_predictions_sha256": "c4b4e7627fbae3db5145a6ee55b4b33cebbebae5b467473524e0edbbb8493142",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_O2/precision",
+    "value_fraction": 0.8429603004799865,
+    "source": "metrics/A_O2.json",
+    "json_field": "aggregate.precision",
+    "executed_log": "logs/A_O2_stdout.log",
+    "stderr": "logs/A_O2_stderr.log",
+    "original_predictions_sha256": "c4b4e7627fbae3db5145a6ee55b4b33cebbebae5b467473524e0edbbb8493142",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_O2/recall",
+    "value_fraction": 0.9039640245381221,
+    "source": "metrics/A_O2.json",
+    "json_field": "aggregate.recall",
+    "executed_log": "logs/A_O2_stdout.log",
+    "stderr": "logs/A_O2_stderr.log",
+    "original_predictions_sha256": "c4b4e7627fbae3db5145a6ee55b4b33cebbebae5b467473524e0edbbb8493142",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_O2/mAP50_95",
+    "value_fraction": 0.7467111535310041,
+    "source": "metrics/A_O2.json",
+    "json_field": "aggregate.mAP50_95",
+    "executed_log": "logs/A_O2_stdout.log",
+    "stderr": "logs/A_O2_stderr.log",
+    "original_predictions_sha256": "c4b4e7627fbae3db5145a6ee55b4b33cebbebae5b467473524e0edbbb8493142",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_O2/runtime_including_cleanup_seconds",
+    "value": 14.756839250010671,
+    "source": "processes/A_O2_exit.json",
+    "json_field": "elapsed_seconds_including_cleanup"
+  },
+  {
+    "claim": "C_O2/mAP50",
+    "value_fraction": 0.9570486111111113,
+    "source": "metrics/C_O2.json",
+    "json_field": "aggregate.mAP50",
+    "executed_log": "logs/C_O2_stdout.log",
+    "stderr": "logs/C_O2_stderr.log",
+    "original_predictions_sha256": "631eea06a7a569f0267fb682cab42ef8559eb2e6e9ed3d2bfc97e36063a70959",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_O2/precision",
+    "value_fraction": 0.8989646646730445,
+    "source": "metrics/C_O2.json",
+    "json_field": "aggregate.precision",
+    "executed_log": "logs/C_O2_stdout.log",
+    "stderr": "logs/C_O2_stderr.log",
+    "original_predictions_sha256": "631eea06a7a569f0267fb682cab42ef8559eb2e6e9ed3d2bfc97e36063a70959",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_O2/recall",
+    "value_fraction": 0.9457149052391509,
+    "source": "metrics/C_O2.json",
+    "json_field": "aggregate.recall",
+    "executed_log": "logs/C_O2_stdout.log",
+    "stderr": "logs/C_O2_stderr.log",
+    "original_predictions_sha256": "631eea06a7a569f0267fb682cab42ef8559eb2e6e9ed3d2bfc97e36063a70959",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_O2/mAP50_95",
+    "value_fraction": 0.835363295542635,
+    "source": "metrics/C_O2.json",
+    "json_field": "aggregate.mAP50_95",
+    "executed_log": "logs/C_O2_stdout.log",
+    "stderr": "logs/C_O2_stderr.log",
+    "original_predictions_sha256": "631eea06a7a569f0267fb682cab42ef8559eb2e6e9ed3d2bfc97e36063a70959",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_O2/runtime_including_cleanup_seconds",
+    "value": 14.367089708015556,
+    "source": "processes/C_O2_exit.json",
+    "json_field": "elapsed_seconds_including_cleanup"
+  },
+  {
+    "claim": "A_O3/mAP50",
+    "value_fraction": 0.5777268222051128,
+    "source": "metrics/A_O3.json",
+    "json_field": "aggregate.mAP50",
+    "executed_log": "logs/A_O3_stdout.log",
+    "stderr": "logs/A_O3_stderr.log",
+    "original_predictions_sha256": "16c69e394281aad2597a5be7c828ee402a75c8212733240453fe8c4cd79de188",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_O3/precision",
+    "value_fraction": 0.5684024824525102,
+    "source": "metrics/A_O3.json",
+    "json_field": "aggregate.precision",
+    "executed_log": "logs/A_O3_stdout.log",
+    "stderr": "logs/A_O3_stderr.log",
+    "original_predictions_sha256": "16c69e394281aad2597a5be7c828ee402a75c8212733240453fe8c4cd79de188",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_O3/recall",
+    "value_fraction": 0.5021392479690052,
+    "source": "metrics/A_O3.json",
+    "json_field": "aggregate.recall",
+    "executed_log": "logs/A_O3_stdout.log",
+    "stderr": "logs/A_O3_stderr.log",
+    "original_predictions_sha256": "16c69e394281aad2597a5be7c828ee402a75c8212733240453fe8c4cd79de188",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_O3/mAP50_95",
+    "value_fraction": 0.40617513816006257,
+    "source": "metrics/A_O3.json",
+    "json_field": "aggregate.mAP50_95",
+    "executed_log": "logs/A_O3_stdout.log",
+    "stderr": "logs/A_O3_stderr.log",
+    "original_predictions_sha256": "16c69e394281aad2597a5be7c828ee402a75c8212733240453fe8c4cd79de188",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "A_O3/runtime_including_cleanup_seconds",
+    "value": 14.574744999990799,
+    "source": "processes/A_O3_exit.json",
+    "json_field": "elapsed_seconds_including_cleanup"
+  },
+  {
+    "claim": "C_O3/mAP50",
+    "value_fraction": 0.9120917508417508,
+    "source": "metrics/C_O3.json",
+    "json_field": "aggregate.mAP50",
+    "executed_log": "logs/C_O3_stdout.log",
+    "stderr": "logs/C_O3_stderr.log",
+    "original_predictions_sha256": "3d7215361d5a17e7f126e93eb40c9a75e041bc332e2d059c3b1a697ce68ebbeb",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_O3/precision",
+    "value_fraction": 0.8017634668178698,
+    "source": "metrics/C_O3.json",
+    "json_field": "aggregate.precision",
+    "executed_log": "logs/C_O3_stdout.log",
+    "stderr": "logs/C_O3_stderr.log",
+    "original_predictions_sha256": "3d7215361d5a17e7f126e93eb40c9a75e041bc332e2d059c3b1a697ce68ebbeb",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_O3/recall",
+    "value_fraction": 0.9172867210261084,
+    "source": "metrics/C_O3.json",
+    "json_field": "aggregate.recall",
+    "executed_log": "logs/C_O3_stdout.log",
+    "stderr": "logs/C_O3_stderr.log",
+    "original_predictions_sha256": "3d7215361d5a17e7f126e93eb40c9a75e041bc332e2d059c3b1a697ce68ebbeb",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_O3/mAP50_95",
+    "value_fraction": 0.790866008960298,
+    "source": "metrics/C_O3.json",
+    "json_field": "aggregate.mAP50_95",
+    "executed_log": "logs/C_O3_stdout.log",
+    "stderr": "logs/C_O3_stderr.log",
+    "original_predictions_sha256": "3d7215361d5a17e7f126e93eb40c9a75e041bc332e2d059c3b1a697ce68ebbeb",
+    "display_rule": "percentage=100*fraction; mAP delta pp=100*(C-A), no manual replacement"
+  },
+  {
+    "claim": "C_O3/runtime_including_cleanup_seconds",
+    "value": 14.15318500000285,
+    "source": "processes/C_O3_exit.json",
+    "json_field": "elapsed_seconds_including_cleanup"
+  },
+  {
+    "claim": "reproduction_cardinality",
+    "sources_per_condition": 45,
+    "conditions": 7,
+    "models": 2,
+    "model_source_evaluations": 630,
+    "source": "status.json",
+    "derivation": "14actual exit0 evaluations x45sources; generation receipt315pairs=7x45"
+  },
+  {
+    "claim": "core_dataset_counts",
+    "images": 300,
+    "boxes": 301,
+    "split_images": [
+      210,
+      45,
+      45
+    ],
+    "source": "references/validation_dataset_v2.json",
+    "provenance": "Historical executed dataset validation; not a new full-source audit in W8A"
+  },
+  {
+    "claim": "reproduction_total_runtime_seconds",
+    "value": 214.55673725000815,
+    "source": "status.json",
+    "json_field": "elapsed_seconds_including_children_cleanup",
+    "scope": "generation+all child startup/evaluation/cleanup+artifact generation; not training runtime"
+  }
+]

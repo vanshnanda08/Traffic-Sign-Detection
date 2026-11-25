@@ -1,0 +1,12 @@
+{
+  "status": "initial development protocol; not final-test frozen",
+  "seed": 42,
+  "scope": "train and validation only; bounding-box regions, not sign segmentation",
+  "fading_alpha": {"F1": 0.15, "F2": 0.35, "F3": 0.60},
+  "fading_target_bgr": [170, 170, 170],
+  "occlusion_fraction": {"O1": 0.15, "O2": 0.30, "O3": 0.50},
+  "occlusion_fill_bgr": [127, 127, 127],
+  "occlusion_anchor": "stable random corner per image and box, shared by O1/O2/O3 for nested masks",
+  "overlap_policy": "union masks; process overlapping pixels once; preserve every original annotation",
+  "pixel_rounding": "floor/ceil clipped half-open boxes; ceil rectangle dimensions, actual coverage recorded"
+}

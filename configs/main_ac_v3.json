@@ -1,0 +1,31 @@
+{
+  "version": "main_ac_v3",
+  "status": "supplementary evaluation; training blocked at compatibility preflight",
+  "bootstrap": {
+    "seed": 42,
+    "resamples": 10000,
+    "interval": [0.025, 0.975],
+    "area_bucket_edges": [0.10, 0.50]
+  },
+  "development": {
+    "device": "cpu",
+    "fixed_confidence": 0.25,
+    "matching_iou": 0.5,
+    "threshold_tie_rule": "maximize micro F1 among unique emitted scores plus 0.25; choose the highest threshold on exact ties"
+  },
+  "scene": {
+    "seed": 42,
+    "canvas_width": 960,
+    "canvas_height": 540,
+    "target_box_area_fractions": [0.02, 0.05, 0.10, 0.25],
+    "background": "seeded neutral low-amplitude noise with no other signs or external content",
+    "evaluation": "W6-style evaluator on CPU; same two canonical checkpoints for every scene size"
+  },
+  "planned_training": {
+    "arms": {"A": [42, 43, 44], "A_erase": [42], "C_v3": [42, 43, 44]},
+    "comparison": "Shared scale/scene, translate and mild HSV transforms with horizontal flip disabled; unrelated spatial cutout in A_erase and canonical degradation exposure in C_v3",
+    "selection": "Mean AP50-95 over clean plus all six frozen development degradations, for each epoch in every arm",
+    "maximum_total_hours": 8,
+    "execution": "blocked: existing supervised trainer authenticates the exact A/C recovery v2 contract and validator"
+  }
+}

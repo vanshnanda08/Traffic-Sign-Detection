@@ -1,0 +1,13 @@
+Fast image access ✅ (ping: 0.0±0.0 ms, read: 5432.3±1207.2 MB/s, size: 268.0 KB)
+Ultralytics 8.3.228 🚀 Python-3.12.16 torch-2.8.0 CPU (Apple M3)
+Model summary (fused): 72 layers, 3,006,818 parameters, 0 gradients, 8.1 GFLOPs
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 8% ━─────────── 1/12 2.3it/s 0.1s<4.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 17% ━━────────── 2/12 4.1it/s 0.3s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% ━━━───────── 3/12 5.1it/s 0.4s<1.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 4/12 5.7it/s 0.5s<1.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 42% ━━━━━─────── 5/12 5.9it/s 0.7s<1.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 6/12 5.5it/s 0.9s<1.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 58% ━━━━━━━───── 7/12 5.7it/s 1.1s<0.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 67% ━━━━━━━━──── 8/12 5.7it/s 1.2s<0.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 9/12 5.6it/s 1.4s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 83% ━━━━━━━━━━── 10/12 5.4it/s 1.6s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 92% ━━━━━━━━━━━─ 11/12 5.2it/s 1.8s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 12/12 6.0it/s 2.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 12/12 6.0it/s 2.0s
+                   all         45         45      0.926      0.953      0.971       0.82
+ COMPULSARY_KEEP_RIGHT          8          8      0.986          1      0.995      0.768
+              NO_ENTRY          8          8      0.962          1      0.995      0.838
+NO_STOPPING_OR_STANDING          8          8      0.967          1      0.995      0.943
+            ROUNDABOUT          7          7      0.802      0.857       0.87      0.728
+        SPEED_LIMIT_30          7          7          1       0.86      0.995      0.823
+        SPEED_LIMIT_80          7          7      0.841          1      0.978      0.823
+Speed: 0.2ms preprocess, 16.3ms inference, 0.0ms loss, 0.6ms postprocess per image
+Completed fresh model-source evaluation;45sources; model C condition F1

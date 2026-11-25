@@ -1,0 +1,204 @@
+{
+  "status": "passed replacement-W5 only",
+  "protocol_sha256": "ffa15a791c5591d19fea1e459cb92b890be42e608d709fca4ef6fbac93e1e8b8",
+  "overlay_sha256": "63ff0c3d084426ea69a2a0f810a8378138345914bfd53e82d00b8f64b5ad3b5f",
+  "frozen_receipt_sha256": "27d4787701031af2c292f603c4622b3ca809ed8c4845960c51e1bd18cdee9226",
+  "parent_v1_preserved": true,
+  "original_incomplete_pair_verifier_exit": 1,
+  "original_C_exit_status": null,
+  "full_new_pair_verifier_exit": 0,
+  "preservation": {
+    "status": "passed",
+    "protected_files": 16307,
+    "changed_files": [],
+    "method": "SHA256 and mtime vs pre-recovery baseline",
+    "original_C_exit_record_still_absent": true
+  },
+  "source_order_matches_original_A": true,
+  "identical_A_C_validation_source_order": true,
+  "galleries_visual_QA": "Viewed57001 for both; boxes/index/legend readable; full six-image data checked by verifier",
+  "models": {
+    "A": {
+      "status": "passed",
+      "process_exit": 0,
+      "initial_state_sha256": "fa0a46dc06278fc877f99d04d05a21ccdd6e075434cf5816f6b5856bd01daa76",
+      "scientific_budget": {
+        "epochs": 50,
+        "microbatches": 2650,
+        "image_presentations": 10500,
+        "optimizer_update_count": 185,
+        "final_unstepped_images": 42
+      },
+      "optimizer_consumed_presentations": 10458,
+      "selected_epoch": 26,
+      "selected_fitness": 0.83429,
+      "clean_validation_only_metrics": {
+        "metrics/precision(B)": 0.9501306153755186,
+        "metrics/recall(B)": 0.9264672827249582,
+        "metrics/mAP50(B)": 0.9619694852084789,
+        "metrics/mAP50-95(B)": 0.8342649851770377
+      },
+      "all_full_validation_passes": 51,
+      "journal": {
+        "sha256": "b46a6e5d6df70b4d10bf30e58f74923af8ad970fa187277a4cec0fa6958ebc40",
+        "events": 14254,
+        "truncated_tail": null,
+        "last_chain_sha256": "fcddd40de6efa57ab849c4dad049f7421de717f885a0347e895d652e375ddd6a"
+      },
+      "checkpoint_hashes": {
+        "last.pt": "67b64b76e0ec75843b25c2ff7a6618ff4b00bab23787dee5185b2cb405ffa8bc",
+        "best.pt": "15ed8470368fc535eed861d89dbee09b55977f1f935b40d41b24e052a6d6e4da"
+      },
+      "source_fingerprints": {
+        "src/p57/complete_validation.py": "d52709e30431490fb0a0a0433a2b82947b4d4ec773c3bfdc2fc9ffddcc436ae7",
+        "src/p57/durability.py": "8480ac2c60e2b5a1762b22d6af7e338e97e1b7696d8fa789d1825f0a6d157c16",
+        "src/p57/recovery_protocol.py": "d90a2ab18e42ef8f41f1ee2c6439b527f8c7e1cbb4b99bcff97584147a40e64c",
+        "src/p57/recovery_training.py": "15ae394eb823e614ed0c373029973c5ca0cf90a8793226727cdc1b3bb7883b2b",
+        "src/p57/recovery_verification.py": "7cad3bd171299030a78e550fcbf9e265d5a15cf32fca309cdc282a378bfa9890",
+        "scripts/train_recovery.py": "5cf3cd52b6253137dbcf32abfa38d5a8fa1e640410a3d17c5b9876c3940c3f77",
+        "scripts/supervise_recovery.py": "de49248858102649fb4ff889eebaa3962ec3ab9c73328095d67dd6aaa8a9533c",
+        "scripts/recovery_preflight.py": "b7c0955b0191ab20a997b9b65573835c3ec18e51487508ed829432a5011f6113",
+        "scripts/check_recovery.py": "e25283378b971cc79be16351f462141aa1fd5603b42eefe2507b98d2a1a86787",
+        "scripts/create_recovery_contract.py": "dba358305fb54667286367ad8afc4ac076c6f693fe7333178f4a981e0d6a9a02",
+        "tests/test_recovery.py": "6595df62742c93fac3158dcc39d57df65fc5e140a5693ada64a1cfc5a27c42af",
+        "configs/main_ac_recovery_v2.json": "ffa15a791c5591d19fea1e459cb92b890be42e608d709fca4ef6fbac93e1e8b8"
+      },
+      "artifact_hashes": {
+        "provenance.json": "f3da043cc07d46f295f3578dd42138a553c4a9d9077287b5ee74363bbaf603cc",
+        "actual_accounting.json": "53a7e46ed6cb86bed08e1c7b3797fd568ab1c11e815b8417590f54bbd566df75",
+        "exposures.json": "f1f8985ae3f6c9aa040e699d6319e323f524d729842862b43ef9bb4acbeb950e",
+        "fit/args.yaml": "d2b175a871cb339ba29ad6175c1784f746eb03c25e4c18cc7e1cb867f6f5fd37",
+        "fit/results.csv": "48c260fff324a4f8b2164881b0f3b8c6807a9ee7abc21341c0fb42026473e3b3",
+        "latest_commit.json": "0d37522fa23a08db1000b8599ba5cbf95e8b1603f88dab8071a33034384f4887",
+        "validation_gallery/predictions.json": "bba0c61b8178ce8729a78a5cd7438dbb8dae8557858fb6a79f9fc27ec0149307"
+      },
+      "training_instrumented_seconds": 1889.1452354580106,
+      "supervisor_monotonic_elapsed_including_cleanup_seconds": 2012.4053489999933,
+      "process_wall_timestamp_span_seconds": 4670.934939861298,
+      "wall_minus_monotonic_seconds": 2658.5295908613043,
+      "training_sampled_memory_maxima": {
+        "rss_bytes": 1248919552,
+        "system_available_bytes": 1876328448,
+        "system_swap_used_bytes": 14625865728,
+        "mps_tensor_bytes": 507308288,
+        "mps_driver_bytes": 1429946368
+      },
+      "training_minimum_available_bytes": 536100864,
+      "whole_process_sampled_max_RSS_bytes": 1181630464,
+      "whole_process_max_global_swap_bytes": 14625865728,
+      "minimum_disk_free_bytes": 19498786816,
+      "actual_condition_presentations": {
+        "clean": 10500
+      },
+      "optimizer_consumed_condition_counts": {
+        "clean": 10458
+      },
+      "pending_condition_counts": {
+        "clean": 42
+      },
+      "NMS_timeout_warnings_in_real_run_streams": [],
+      "checkpoints_and_audit_bytes": 1034542008
+    },
+    "C": {
+      "status": "passed",
+      "process_exit": 0,
+      "initial_state_sha256": "fa0a46dc06278fc877f99d04d05a21ccdd6e075434cf5816f6b5856bd01daa76",
+      "scientific_budget": {
+        "epochs": 50,
+        "microbatches": 2650,
+        "image_presentations": 10500,
+        "optimizer_update_count": 185,
+        "final_unstepped_images": 42
+      },
+      "optimizer_consumed_presentations": 10458,
+      "selected_epoch": 15,
+      "selected_fitness": 0.82885,
+      "clean_validation_only_metrics": {
+        "metrics/precision(B)": 0.9037600257699808,
+        "metrics/recall(B)": 0.9388406538458081,
+        "metrics/mAP50(B)": 0.9574352727482413,
+        "metrics/mAP50-95(B)": 0.8288511574612486
+      },
+      "all_full_validation_passes": 51,
+      "journal": {
+        "sha256": "d1f7a20d0906e9915bc0058c857ee586c98cabe1c08d526dfa3674fadf1d43cd",
+        "events": 14254,
+        "truncated_tail": null,
+        "last_chain_sha256": "c8a1b028b0c518c9efc5dfa49dd39ecd859fb99fdd18a9b300b4395ebe1689f1"
+      },
+      "checkpoint_hashes": {
+        "last.pt": "6645249e9769c6c78cb035775a3f8369ce9eeef77eacb176f091b706b309486e",
+        "best.pt": "cb918cad486d0fc6a2eb4c4886cd446bb4aef430d2f6e3581ccc2abff84c8091"
+      },
+      "source_fingerprints": {
+        "src/p57/complete_validation.py": "d52709e30431490fb0a0a0433a2b82947b4d4ec773c3bfdc2fc9ffddcc436ae7",
+        "src/p57/durability.py": "8480ac2c60e2b5a1762b22d6af7e338e97e1b7696d8fa789d1825f0a6d157c16",
+        "src/p57/recovery_protocol.py": "d90a2ab18e42ef8f41f1ee2c6439b527f8c7e1cbb4b99bcff97584147a40e64c",
+        "src/p57/recovery_training.py": "15ae394eb823e614ed0c373029973c5ca0cf90a8793226727cdc1b3bb7883b2b",
+        "src/p57/recovery_verification.py": "7cad3bd171299030a78e550fcbf9e265d5a15cf32fca309cdc282a378bfa9890",
+        "scripts/train_recovery.py": "5cf3cd52b6253137dbcf32abfa38d5a8fa1e640410a3d17c5b9876c3940c3f77",
+        "scripts/supervise_recovery.py": "de49248858102649fb4ff889eebaa3962ec3ab9c73328095d67dd6aaa8a9533c",
+        "scripts/recovery_preflight.py": "b7c0955b0191ab20a997b9b65573835c3ec18e51487508ed829432a5011f6113",
+        "scripts/check_recovery.py": "e25283378b971cc79be16351f462141aa1fd5603b42eefe2507b98d2a1a86787",
+        "scripts/create_recovery_contract.py": "dba358305fb54667286367ad8afc4ac076c6f693fe7333178f4a981e0d6a9a02",
+        "tests/test_recovery.py": "6595df62742c93fac3158dcc39d57df65fc5e140a5693ada64a1cfc5a27c42af",
+        "configs/main_ac_recovery_v2.json": "ffa15a791c5591d19fea1e459cb92b890be42e608d709fca4ef6fbac93e1e8b8"
+      },
+      "artifact_hashes": {
+        "provenance.json": "fe2f1cda1def16d96cfb17db4717de1e244941e13fb5bea67067a8bb5ddd56f4",
+        "actual_accounting.json": "53a7e46ed6cb86bed08e1c7b3797fd568ab1c11e815b8417590f54bbd566df75",
+        "exposures.json": "7051aaf10abfbd699d586ba6129e7fa70af9978d10fb064483878ed041d83665",
+        "fit/args.yaml": "b427919ca8be73529f294a80d2f316b0b1a7121b403b3dfd7511cf8e23efa7f9",
+        "fit/results.csv": "6069061bc2d1856b96ba2145cc4472b4a5fd36912fd0a686fed1bd4121bbe592",
+        "latest_commit.json": "3d2a97174d5d04d2a44a6895e9e6db63f5b38f3a297031aeaa61066cd98d9d6d",
+        "validation_gallery/predictions.json": "0cc740f531f5a8be0f59ad72620a28d715aafaedbcb67fec7f6b16487ef024db"
+      },
+      "training_instrumented_seconds": 1529.6385575000022,
+      "supervisor_monotonic_elapsed_including_cleanup_seconds": 1650.7798466250097,
+      "process_wall_timestamp_span_seconds": 1650.7786719799042,
+      "wall_minus_monotonic_seconds": -0.001174645105493255,
+      "training_sampled_memory_maxima": {
+        "rss_bytes": 1248624640,
+        "system_available_bytes": 1930526720,
+        "system_swap_used_bytes": 14769651712,
+        "mps_tensor_bytes": 507256832,
+        "mps_driver_bytes": 1434746880
+      },
+      "training_minimum_available_bytes": 599425024,
+      "whole_process_sampled_max_RSS_bytes": 1210023936,
+      "whole_process_max_global_swap_bytes": 14702542848,
+      "minimum_disk_free_bytes": 19805724672,
+      "actual_condition_presentations": {
+        "O1": 884,
+        "clean": 5290,
+        "F2": 858,
+        "O3": 895,
+        "F3": 908,
+        "F1": 859,
+        "O2": 806
+      },
+      "optimizer_consumed_condition_counts": {
+        "O1": 877,
+        "clean": 5265,
+        "F2": 856,
+        "O3": 891,
+        "F3": 906,
+        "F1": 858,
+        "O2": 805
+      },
+      "pending_condition_counts": {
+        "clean": 25,
+        "O3": 4,
+        "F3": 2,
+        "F2": 2,
+        "O1": 7,
+        "F1": 1,
+        "O2": 1
+      },
+      "NMS_timeout_warnings_in_real_run_streams": [],
+      "checkpoints_and_audit_bytes": 1033822656
+    }
+  },
+  "next_gate": "W6 shared held-out evaluation requires next authorization; no test conditions/predictions generated",
+  "reference_G05": "blocked separately"
+}

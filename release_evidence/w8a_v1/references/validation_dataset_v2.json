@@ -1,0 +1,55 @@
+{
+  "dataset_lock_sha256": "ec2b3d0acef8bc03717a606313aae6b6b10ad91d37ebb6e6eecdda72c1fded51",
+  "degradations_generated": false,
+  "duplicate_or_related_group_leakage": 0,
+  "exhaustive_pairs_checked": 44850,
+  "label_geometry_unchanged": true,
+  "per_class_images": {
+    "COMPULSARY_KEEP_RIGHT": 53,
+    "NO_ENTRY": 53,
+    "NO_STOPPING_OR_STANDING": 53,
+    "ROUNDABOUT": 39,
+    "SPEED_LIMIT_30": 51,
+    "SPEED_LIMIT_80": 51
+  },
+  "per_split_class_images": {
+    "test": {
+      "COMPULSARY_KEEP_RIGHT": 8,
+      "NO_ENTRY": 8,
+      "NO_STOPPING_OR_STANDING": 8,
+      "ROUNDABOUT": 7,
+      "SPEED_LIMIT_30": 7,
+      "SPEED_LIMIT_80": 7
+    },
+    "train": {
+      "COMPULSARY_KEEP_RIGHT": 37,
+      "NO_ENTRY": 37,
+      "NO_STOPPING_OR_STANDING": 37,
+      "ROUNDABOUT": 25,
+      "SPEED_LIMIT_30": 37,
+      "SPEED_LIMIT_80": 37
+    },
+    "val": {
+      "COMPULSARY_KEEP_RIGHT": 8,
+      "NO_ENTRY": 8,
+      "NO_STOPPING_OR_STANDING": 8,
+      "ROUNDABOUT": 7,
+      "SPEED_LIMIT_30": 7,
+      "SPEED_LIMIT_80": 7
+    }
+  },
+  "physical_sign_independence_guaranteed": false,
+  "relationship_policy": "selected-core-exhaustive-bidirectional-v2",
+  "relationship_statement": "No relationships detected under this protocol",
+  "selected_boxes": 301,
+  "selected_images": 300,
+  "split_counts": {
+    "test": 45,
+    "train": 210,
+    "val": 45
+  },
+  "status": "passed",
+  "test_set_policy": "frozen source-test subset; hashes checked; no model development/evaluation performed",
+  "training_executed": false,
+  "unchanged_source_image_bytes": true
+}

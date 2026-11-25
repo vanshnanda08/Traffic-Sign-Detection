@@ -1,0 +1,29 @@
+{
+  "version": "p57_app_models_v1",
+  "classes": [
+    "COMPULSARY_KEEP_RIGHT",
+    "NO_ENTRY",
+    "NO_STOPPING_OR_STANDING",
+    "ROUNDABOUT",
+    "SPEED_LIMIT_30",
+    "SPEED_LIMIT_80"
+  ],
+  "models": {
+    "A": {
+      "name": "Baseline A",
+      "path": "results/main_ac_recovery_v2/A/fit/weights/best.pt",
+      "sha256": "15ed8470368fc535eed861d89dbee09b55977f1f935b40d41b24e052a6d6e4da"
+    },
+    "C": {
+      "name": "Degradation-aware C",
+      "path": "results/main_ac_recovery_v2/C/fit/weights/best.pt",
+      "sha256": "cb918cad486d0fc6a2eb4c4886cd446bb4aef430d2f6e3581ccc2abff84c8091"
+    }
+  },
+  "frozen_files": {
+    "src/p57/degradation.py": "1edc84c6d55c5ebbd1f8a9d0888b11e77727e63ef68cdd64e8814c8ee2e35af6",
+    "src/p57/complete_validation.py": "d52709e30431490fb0a0a0433a2b82947b4d4ec773c3bfdc2fc9ffddcc436ae7",
+    "configs/degradation_dev_v1.json": "5286c324e24077d46eb6665eaf1142db6b613537f6595538a27c4db784e34927",
+    "requirements.txt": "f0ad7d566b5d9720c45c4ef5a10af18955881687b46be51f59d272f8cfb500fe"
+  }
+}

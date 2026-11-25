@@ -1,0 +1,8 @@
+{
+  "seed": 57,
+  "device": "auto",
+  "deterministic_algorithms": true,
+  "torch_threads": 2,
+  "smoke_image_size": 64,
+  "model_architecture": "yolov8n.yaml"
+}

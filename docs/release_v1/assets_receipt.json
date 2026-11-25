@@ -1,0 +1,12 @@
+{
+  "archive_sha256": "ba3b8cd05cd1ad0ea4c278b132abf3fa8e2f7ebc065e3ceccceb6461682532c4",
+  "archive_bytes": 13959084,
+  "inventory_sha256": "1f7554fb5938b539a377afc453f31e034cc744dd0f48ec6d7fed72f95becc1d0",
+  "files": 185,
+  "bytes": 15296945,
+  "all_sha256_match": true,
+  "version": "w8b_assets_v1",
+  "public_url": null,
+  "distribution_status": "local candidate; public AGPL/corresponding-source/team license decision and hosting pending",
+  "archive_filename": "p57_reproduction_assets_v1.zip"
+}

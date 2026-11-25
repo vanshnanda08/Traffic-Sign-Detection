@@ -1,0 +1,211 @@
+{
+  "version": "main_ac_frozen_v1",
+  "scope": "Detector W4 frozen; no main training/final evaluation executed; reference W2/G05 remains blocked",
+  "dataset_config": "configs/dataset_v2.json",
+  "dataset_lock_sha256": "ec2b3d0acef8bc03717a606313aae6b6b10ad91d37ebb6e6eecdda72c1fded51",
+  "initial_weights_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "training": {
+    "model": "checkpoints/initial/ultralytics_v8.3.0/yolov8n.pt",
+    "device": "mps",
+    "imgsz": 416,
+    "batch": 4,
+    "epochs": 50,
+    "workers": 0,
+    "cache": false,
+    "amp": false,
+    "seed": 42,
+    "deterministic": true,
+    "patience": 0,
+    "optimizer": "AdamW",
+    "lr0": 0.001,
+    "weight_decay": 0.0005,
+    "mosaic": 0.0,
+    "mixup": 0.0,
+    "copy_paste": 0.0,
+    "hsv_h": 0.0,
+    "hsv_s": 0.0,
+    "hsv_v": 0.0,
+    "degrees": 0.0,
+    "translate": 0.0,
+    "scale": 0.0,
+    "shear": 0.0,
+    "perspective": 0.0,
+    "flipud": 0.0,
+    "fliplr": 0.0,
+    "data": "data/processed/p57_development_v1/dataset.yaml",
+    "nbs": 64,
+    "warmup_epochs": 3.0,
+    "plots": false,
+    "save": true,
+    "val": true,
+    "pretrained": true,
+    "resume": false,
+    "compile": false,
+    "fraction": 1.0,
+    "cos_lr": false,
+    "lrf": 0.01,
+    "momentum": 0.937,
+    "warmup_bias_lr": 0.1,
+    "warmup_momentum": 0.8,
+    "cutmix": 0.0,
+    "bgr": 0.0,
+    "multi_scale": false,
+    "rect": false,
+    "close_mosaic": 0,
+    "auto_augment": null,
+    "erasing": 0.0,
+    "dropout": 0.0,
+    "half": false,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "classes": null,
+    "agnostic_nms": false,
+    "single_cls": false,
+    "time": null,
+    "freeze": null
+  },
+  "strict_determinism": {
+    "torch_use_deterministic_algorithms": true,
+    "warn_only": false,
+    "MPS_FALLBACK": "0",
+    "no_silent_changes": true
+  },
+  "models": {
+    "A": "clean originals only",
+    "C": {
+      "clean_probability": "1/2",
+      "each_degradation_probability": "1/12",
+      "conditions": [
+        "F1",
+        "F2",
+        "F3",
+        "O1",
+        "O2",
+        "O3"
+      ]
+    }
+  },
+  "exposure": {
+    "manifest": "docs/protocol_w4_v1/exposure_manifest.csv",
+    "seed": 42,
+    "algorithm": "NumPy PCG64 seeded by SHA256 JSON [42,source_id,[W4-exposure-v1,one_based_epoch]] first8bytes big-endian; draw integers [0,12), buckets0-5 clean;6-11 F1..O3",
+    "once_per_original_per_epoch": true,
+    "source_pixels_degraded_before_resize": true,
+    "independent_of_shuffle_and_initialization_rng": true,
+    "epoch_hook": "set train_loader.dataset.set_epoch(trainer.epoch+1) at on_train_epoch_start; workers0; uncached online reads"
+  },
+  "degradation_config": "configs/degradation_dev_v1.json",
+  "online_dataset": "p57.online.ScheduledYOLODataset",
+  "generic_transform_pipeline": "Only deterministic LetterBox and Format; no optional Albumentations or v8 random pipeline for either A/C",
+  "budget_summary": {
+    "epochs": 50,
+    "microbatches": 2650,
+    "image_presentations": 10500,
+    "optimizer_update_count": 185,
+    "final_unstepped_images": 42,
+    "nominal_steady_accumulation": 16
+  },
+  "optimizer_conventions": {
+    "lr_schedule": "linear max(1-epoch/50,0)*.99+.01; scheduler.step at epoch start",
+    "warmup_iterations": 159,
+    "warmup_inclusive": true,
+    "bias_warmup_lr": 0.1,
+    "other_warmup_lr": 0.0,
+    "AdamW_betas": [
+      0.937,
+      0.999
+    ],
+    "AdamW_eps": 1e-08,
+    "effective_weight_decay_non_norm_weights": 0.0005,
+    "bias_and_norm_decay": 0.0,
+    "gradient_clip_norm": 10.0,
+    "gradient_carry_across_epochs": true,
+    "no_final_tail_flush": true,
+    "EMA": {
+      "enabled": true,
+      "decay": 0.9999,
+      "tau": 2000,
+      "update_per_optimizer_step": true,
+      "checkpoint_model": "EMA serialized half then float32 for declared evaluator"
+    }
+  },
+  "checkpoint_selection": {
+    "split": "clean validation only",
+    "fitness": "mean class AP50-95; weights [0,0,0,1] on [P,R,mAP50,mAP50-95]",
+    "tie": "best.pt overwritten when current fitness equals best; latest exact tie wins",
+    "early_stopping": false,
+    "resume": false
+  },
+  "evaluation": {
+    "status": "future only; no variants/predictions generated",
+    "heldout_sources": 45,
+    "conditions": [
+      "clean",
+      "F1",
+      "F2",
+      "F3",
+      "O1",
+      "O2",
+      "O3"
+    ],
+    "imgsz": 416,
+    "device": "mps",
+    "half": false,
+    "amp": false,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "augment": false,
+    "classes": null,
+    "agnostic_nms": false,
+    "batch": 4,
+    "rect": true,
+    "workers": 0,
+    "ap_matching_ious": [
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95
+    ],
+    "primary": [
+      "mAP50",
+      "macro_precision_at_evaluator_best_F1",
+      "macro_recall_at_evaluator_best_F1"
+    ],
+    "PR_convention": "Pinned ap_per_class: IoU0.5 P/R curves over1000 confidence samples; common argmax of smooth(mean class F1,.1), then macro mean over GT-present classes. Per-evaluation operating point, not fixed .25 or a deployable test-tuned threshold.",
+    "additional_fixed_threshold_metrics": "not frozen/authorized; require validation-selected threshold and separate labels"
+  },
+  "run_control": {
+    "training_lock": ".cache/p57_training.lock",
+    "one_job_at_a_time": true,
+    "failure": "retain failed logs and create a new matched protocol/run pair; never silently change device/batch/epochs/determinism",
+    "actual_budget_gate": "p57.protocol.require_equal_budgets against full frozen steps and epoch tails; record actual conditions/source coverage and initialization/source hashes"
+  },
+  "reference": {
+    "status": "blocked separately; detector W4 not blocked",
+    "allowed_candidate_ids": [
+      1,
+      5,
+      17,
+      38
+    ],
+    "exclude_ids": [
+      40
+    ],
+    "unsupported": "no-stopping; entire ROUNDABOUT mapping forbidden",
+    "complete_tracks_excluded": [
+      "00001/00013",
+      "00001/00066",
+      "00040/00009"
+    ],
+    "reference_split": "future class-stratified track-disjoint training/validation; no reference run now",
+    "task": "separate classification/crop recognition; never compare accuracy to detector mAP"
+  }
+}

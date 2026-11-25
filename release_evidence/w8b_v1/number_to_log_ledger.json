@@ -1,0 +1,293 @@
+{
+  "version": "w8b_extension_v1",
+  "parent_ledger": "release_evidence/w8a_v1/number_to_log_ledger.json",
+  "parent_sha256": "40d4f0c98d8a47f71f4f83486592e74b4b51b864662ac952608ec8dbee64b89a",
+  "entries": [
+    {
+      "claim": "A_clean_mAP50_percent",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "A/clean/mAP50",
+      "value": 98.02631578947368,
+      "derivation": "100*actual fractional mAP50; executed metric/log chain in unchanged W8A ledger (AP50 exact W6)"
+    },
+    {
+      "claim": "C_clean_mAP50_percent",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "C/clean/mAP50",
+      "value": 96.28156565656565,
+      "derivation": "100*actual fractional mAP50; executed metric/log chain in unchanged W8A ledger (AP50 exact W6)"
+    },
+    {
+      "claim": "clean_C_minus_A_pp",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "clean",
+      "value": -1.744750132908035,
+      "derivation": "100*(C-A), display three decimal places"
+    },
+    {
+      "claim": "A_F1_mAP50_percent",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "A/F1/mAP50",
+      "value": 97.94444444444444,
+      "derivation": "100*actual fractional mAP50; executed metric/log chain in unchanged W8A ledger (AP50 exact W6)"
+    },
+    {
+      "claim": "C_F1_mAP50_percent",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "C/F1/mAP50",
+      "value": 97.13020833333333,
+      "derivation": "100*actual fractional mAP50; executed metric/log chain in unchanged W8A ledger (AP50 exact W6)"
+    },
+    {
+      "claim": "F1_C_minus_A_pp",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "F1",
+      "value": -0.8142361111111218,
+      "derivation": "100*(C-A), display three decimal places"
+    },
+    {
+      "claim": "A_F2_mAP50_percent",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "A/F2/mAP50",
+      "value": 97.58514492753623,
+      "derivation": "100*actual fractional mAP50; executed metric/log chain in unchanged W8A ledger (AP50 exact W6)"
+    },
+    {
+      "claim": "C_F2_mAP50_percent",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "C/F2/mAP50",
+      "value": 96.24378109452736,
+      "derivation": "100*actual fractional mAP50; executed metric/log chain in unchanged W8A ledger (AP50 exact W6)"
+    },
+    {
+      "claim": "F2_C_minus_A_pp",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "F2",
+      "value": -1.3413638330088795,
+      "derivation": "100*(C-A), display three decimal places"
+    },
+    {
+      "claim": "A_F3_mAP50_percent",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "A/F3/mAP50",
+      "value": 96.6559454191033,
+      "derivation": "100*actual fractional mAP50; executed metric/log chain in unchanged W8A ledger (AP50 exact W6)"
+    },
+    {
+      "claim": "C_F3_mAP50_percent",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "C/F3/mAP50",
+      "value": 92.89999999999999,
+      "derivation": "100*actual fractional mAP50; executed metric/log chain in unchanged W8A ledger (AP50 exact W6)"
+    },
+    {
+      "claim": "F3_C_minus_A_pp",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "F3",
+      "value": -3.7559454191033126,
+      "derivation": "100*(C-A), display three decimal places"
+    },
+    {
+      "claim": "A_O1_mAP50_percent",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "A/O1/mAP50",
+      "value": 97.48484848484847,
+      "derivation": "100*actual fractional mAP50; executed metric/log chain in unchanged W8A ledger (AP50 exact W6)"
+    },
+    {
+      "claim": "C_O1_mAP50_percent",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "C/O1/mAP50",
+      "value": 97.11021505376345,
+      "derivation": "100*actual fractional mAP50; executed metric/log chain in unchanged W8A ledger (AP50 exact W6)"
+    },
+    {
+      "claim": "O1_C_minus_A_pp",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "O1",
+      "value": -0.3746334310850252,
+      "derivation": "100*(C-A), display three decimal places"
+    },
+    {
+      "claim": "A_O2_mAP50_percent",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "A/O2/mAP50",
+      "value": 93.61915985158261,
+      "derivation": "100*actual fractional mAP50; executed metric/log chain in unchanged W8A ledger (AP50 exact W6)"
+    },
+    {
+      "claim": "C_O2_mAP50_percent",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "C/O2/mAP50",
+      "value": 95.70486111111113,
+      "derivation": "100*actual fractional mAP50; executed metric/log chain in unchanged W8A ledger (AP50 exact W6)"
+    },
+    {
+      "claim": "O2_C_minus_A_pp",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "O2",
+      "value": 2.0857012595285163,
+      "derivation": "100*(C-A), display three decimal places"
+    },
+    {
+      "claim": "A_O3_mAP50_percent",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "A/O3/mAP50",
+      "value": 57.772682220511285,
+      "derivation": "100*actual fractional mAP50; executed metric/log chain in unchanged W8A ledger (AP50 exact W6)"
+    },
+    {
+      "claim": "C_O3_mAP50_percent",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "C/O3/mAP50",
+      "value": 91.20917508417507,
+      "derivation": "100*actual fractional mAP50; executed metric/log chain in unchanged W8A ledger (AP50 exact W6)"
+    },
+    {
+      "claim": "O3_C_minus_A_pp",
+      "source": "docs/evaluation_v1/measured/metrics_14.json",
+      "source_sha256": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+      "field": "O3",
+      "value": 33.436492863663794,
+      "derivation": "100*(C-A), display three decimal places"
+    },
+    {
+      "claim": "A_training_runtime_seconds",
+      "source": "docs/main_ac_recovery_v2/A_supervisor_exit.json",
+      "source_sha256": "2ca2984419034e93d2c17e53335a3f57c96bcc36d53c0e2660d488736c323f0d",
+      "field": "elapsed_seconds_including_native_cleanup",
+      "value": 2012.4053489999933,
+      "derivation": null
+    },
+    {
+      "claim": "A_original_hardware",
+      "source": "docs/main_ac_recovery_v2/A_provenance.json",
+      "source_sha256": "d9b58a8d384b60f7856d9793c299d0a62cd1569e1882cdfbcb164186e6276e38",
+      "field": "hardware",
+      "value": {
+        "machine": "arm64",
+        "ram_bytes": 8589934592,
+        "cpu": "Apple M3"
+      },
+      "derivation": null,
+      "source_original_sha256": "f3da043cc07d46f295f3578dd42138a553c4a9d9077287b5ee74363bbaf603cc"
+    },
+    {
+      "claim": "A_training_epochs",
+      "source": "docs/main_ac_recovery_v2/verification_receipt.json",
+      "source_sha256": "bb4007c1d936faf1d2485ea42217f12b0ceb0c40767e0dc2b8f368f98672832d",
+      "field": "models/A/scientific_budget/epochs",
+      "value": 50,
+      "derivation": null
+    },
+    {
+      "claim": "C_training_runtime_seconds",
+      "source": "docs/main_ac_recovery_v2/C_supervisor_exit.json",
+      "source_sha256": "bcb5e21bd7287e5b6494ed4ef427f1d7e952b3777c1ec4dd9ff76a8db8ede2d9",
+      "field": "elapsed_seconds_including_native_cleanup",
+      "value": 1650.7798466250097,
+      "derivation": null
+    },
+    {
+      "claim": "C_original_hardware",
+      "source": "docs/main_ac_recovery_v2/C_provenance.json",
+      "source_sha256": "0de9e529cd3a619b0c84885ede325514a9940c31f21a9541ddefe52097c6ef7d",
+      "field": "hardware",
+      "value": {
+        "machine": "arm64",
+        "ram_bytes": 8589934592,
+        "cpu": "Apple M3"
+      },
+      "derivation": null,
+      "source_original_sha256": "fe2f1cda1def16d96cfb17db4717de1e244941e13fb5bea67067a8bb5ddd56f4"
+    },
+    {
+      "claim": "C_training_epochs",
+      "source": "docs/main_ac_recovery_v2/verification_receipt.json",
+      "source_sha256": "bb4007c1d936faf1d2485ea42217f12b0ceb0c40767e0dc2b8f368f98672832d",
+      "field": "models/C/scientific_budget/epochs",
+      "value": 50,
+      "derivation": null
+    },
+    {
+      "claim": "W8A_fresh_evaluations",
+      "source": "release_evidence/w8a_v1/status.json",
+      "source_sha256": "e68e186a5a9408a8578cdef9c1ca9c16cd55393fb0b48dd05cfedb8926f2d878",
+      "field": "fresh_evaluations",
+      "value": 14,
+      "derivation": null
+    },
+    {
+      "claim": "W8A_model_source_evaluations",
+      "source": "release_evidence/w8a_v1/status.json",
+      "source_sha256": "e68e186a5a9408a8578cdef9c1ca9c16cd55393fb0b48dd05cfedb8926f2d878",
+      "field": "model_source_evaluations",
+      "value": 630,
+      "derivation": null
+    },
+    {
+      "claim": "W8A_elapsed_seconds_including_children_cleanup",
+      "source": "release_evidence/w8a_v1/status.json",
+      "source_sha256": "e68e186a5a9408a8578cdef9c1ca9c16cd55393fb0b48dd05cfedb8926f2d878",
+      "field": "elapsed_seconds_including_children_cleanup",
+      "value": 214.55673725000815,
+      "derivation": null
+    },
+    {
+      "claim": "core_counts",
+      "source": "release_evidence/w8a_v1/references/validation_dataset_v2.json",
+      "source_sha256": "11f9b2c44d8b359cfb7c77a262d46ceea99157c7f457be3b80aacd99b57d5539",
+      "field": "executed validation record",
+      "value": {
+        "images": 300,
+        "boxes": 301,
+        "split_images": [
+          210,
+          45,
+          45
+        ]
+      },
+      "derivation": "unchanged W8A number ledger links the actual dataset validation"
+    },
+    {
+      "claim": "release_assets",
+      "source": "docs/release_v1/assets_receipt.json",
+      "source_sha256": "5e4ecad1af6b6cd30e135c16f893356a53bd82afc515b31719302631c2f8178d",
+      "field": "receipt",
+      "value": {
+        "archive_sha256": "ba3b8cd05cd1ad0ea4c278b132abf3fa8e2f7ebc065e3ceccceb6461682532c4",
+        "archive_bytes": 13959084,
+        "inventory_sha256": "1f7554fb5938b539a377afc453f31e034cc744dd0f48ec6d7fed72f95becc1d0",
+        "files": 185,
+        "bytes": 15296945,
+        "all_sha256_match": true,
+        "version": "w8b_assets_v1",
+        "public_url": null,
+        "distribution_status": "local candidate; public AGPL/corresponding-source/team license decision and hosting pending",
+        "archive_filename": "p57_reproduction_assets_v1.zip"
+      },
+      "derivation": null
+    }
+  ],
+  "public_copy_note": "Personal local path prefixes were redacted in the two training provenance copies. Numeric fields are retained."
+}

@@ -1,0 +1,8 @@
+{
+  "returncode": 0,
+  "pid": 49650,
+  "elapsed_seconds_including_cleanup": 14.159644166997168,
+  "wall_span_seconds": 14.159629821777344,
+  "model": "C",
+  "condition": "F3"
+}

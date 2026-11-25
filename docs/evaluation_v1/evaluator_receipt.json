@@ -1,0 +1,50 @@
+{
+  "version": "evaluator_v1",
+  "config_sha256": "b47f309933a1f0c9f9253519dc90f8b95517e9f572db57b8917484a7f02ef685",
+  "files": {
+    "src/p57/evaluation_data.py": "32378af112c99a3f51e416d505ae32c52510ee0e1cf9814b827f411e30c7c8d1",
+    "src/p57/evaluation_engine.py": "5955243b30ce8ffa6f7149129f4dd7a68ca147f5e77cd662541d8fa9ff92acda",
+    "src/p57/evaluation_protocol.py": "8082d74a6d1c9582b9779c6440f958c063c9082f81a7ce8f5c8d9833623bea67",
+    "src/p57/evaluation_artifacts.py": "61d8ce84a04532fee52c9e7e04b345175026a73ec8856b529d762d5de56de832",
+    "scripts/evaluation_preflight.py": "d1d155b1d0361fa51a8631b0d30b30e537845ae21d4c4417cd8fdcbc9ae9b5f6",
+    "scripts/freeze_evaluator.py": "1c706f268304cfc95ea7a8ff55faec9fa84e809c6f08e4c1a1d930df99ec2b25",
+    "scripts/evaluate_heldout.py": "41c1d263b661d6c90510d5cb62a660dc7da1ea2a8ac44446a9239d4480bab83f",
+    "scripts/supervise_evaluations.py": "0f742ed45356c1a6a4a3886f49bf89d4b5a9cfb03c3cfa9344e02faa6e35a8ae",
+    "scripts/evaluation_artifacts.py": "2b20fab21abd24431ebe8d372e7479ba9493bfb64858b9812045bcecc888ec86",
+    "tests/test_evaluation.py": "e5787eee5aec3d29153574b62592aa3fccce62da3ccb889a383a071a73712ced",
+    "configs/evaluation_v1.json": "b47f309933a1f0c9f9253519dc90f8b95517e9f572db57b8917484a7f02ef685"
+  },
+  "snapshot": "results/detector_eval_v1/source_snapshot",
+  "library_hashes": {
+    "NMS": "ec0805834134bb95209b15345c582542fc2f4e2d6073607447f23715e0d0d73e",
+    "base_validator": "484d662d0622ff1cdb8de13b7439233da4e364787558215a5dfafc63b666f2ab",
+    "matching": "ef653b1c6c5b155737f3fe6e2e7513a6a6da446d0203871d88a0c10231199e8c",
+    "prepare_batch": "863679bfaeee87b6cceeb2c18c03f5f4a46c2a15de85e8b6e391b22cfaca412a",
+    "process_batch": "77f09748fa62ad7039969a019553a24b469661d73e8a9d70782ec5e564ad4377",
+    "scale_preds": "67444c4941e16b25b16e8f827af65533d0f852f7d7b09d7130ba9aaeebd27890",
+    "update_metrics": "814b85bc9cea46d9d548f71b6b3372c5613e007ef1756142695ec9117ad868d4",
+    "get_stats": "3dae237b8a29a7ef005c095e044af9f7ed41c7bb0831a17448be85567fd683ee",
+    "DetMetrics": "5ed51f42854e843eb41fe003089a43e3a5e5f23b5ddc9849a63c8d2dcf54d7f6",
+    "AP": "5db6d5855fc802656a1e857ec8399af2b9e7e31e21d2473a0daa617a6068472b",
+    "compute_AP": "5fc199694a6e49ca4d0f16078b21c8a25d0b121f67654f6bdf30e5ee9c6dbc37"
+  },
+  "preflight_path": "results/w6_verification_v1/preflight/result.json",
+  "preflight_sha256": "15ccdad3adbba16687f290de841952d2c5e7efe95d88f2911a351411339dc4a7",
+  "checkpoint_hashes": {
+    "A": {
+      "path": "results/main_ac_recovery_v2/A/fit/weights/best.pt",
+      "sha256": "15ed8470368fc535eed861d89dbee09b55977f1f935b40d41b24e052a6d6e4da"
+    },
+    "C": {
+      "path": "results/main_ac_recovery_v2/C/fit/weights/best.pt",
+      "sha256": "cb918cad486d0fc6a2eb4c4886cd446bb4aef430d2f6e3581ccc2abff84c8091"
+    }
+  },
+  "git_commit": null,
+  "tolerances_declared_before_preflight": {
+    "development_metric_absolute": 1e-10,
+    "development_prediction_absolute": 1e-06,
+    "serialized_metric_absolute": 1e-10
+  },
+  "status": "frozen before any held-out condition generation or prediction"
+}

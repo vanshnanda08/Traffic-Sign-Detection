@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "fresh_evaluations": 14,
+  "model_source_evaluations": 630,
+  "actual_child_exits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "elapsed_seconds_including_children_cleanup": 214.55673725000815,
+  "comparison": {
+    "complete": true,
+    "evaluations": 14,
+    "model_source_evaluations": 630,
+    "all_actual_exits_zero": true,
+    "all_within_predeclared_tolerances": true,
+    "max_absolute_differences": {
+      "precision": 9.55485287779112e-07,
+      "recall": 1.2764394549114044e-06,
+      "mAP50": 0.0,
+      "mAP50_95": 7.049048222906862e-08
+    }
+  },
+  "device": "cpu",
+  "second_machine": false
+}

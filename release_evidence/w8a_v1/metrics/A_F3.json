@@ -1,0 +1,405 @@
+{
+  "aggregate": {
+    "precision": 0.9132604585675511,
+    "recall": 0.9032883024096227,
+    "mAP50": 0.9665594541910331,
+    "mAP50_95": 0.7591548879907208
+  },
+  "operating_point": {
+    "convention": "common smoothed mean-class best-F1 at IoU0.5; not fixed0.25",
+    "confidence": 0.4624624624624625,
+    "grid_index": 462
+  },
+  "per_class": [
+    {
+      "id": 0,
+      "name": "COMPULSARY_KEEP_RIGHT",
+      "precision": 1.0,
+      "recall": 0.9312896928032613,
+      "mAP50": 0.995,
+      "mAP50_95": 0.7477716735693869,
+      "ground_truth_boxes": 8,
+      "ground_truth_images": 8
+    },
+    {
+      "id": 1,
+      "name": "NO_ENTRY",
+      "precision": 1.0,
+      "recall": 0.9403250443937177,
+      "mAP50": 0.995,
+      "mAP50_95": 0.7703566330172326,
+      "ground_truth_boxes": 8,
+      "ground_truth_images": 8
+    },
+    {
+      "id": 2,
+      "name": "NO_STOPPING_OR_STANDING",
+      "precision": 1.0,
+      "recall": 0.9766865058321849,
+      "mAP50": 0.995,
+      "mAP50_95": 0.77100847029946,
+      "ground_truth_boxes": 8,
+      "ground_truth_images": 8
+    },
+    {
+      "id": 3,
+      "name": "ROUNDABOUT",
+      "precision": 0.6901589340267319,
+      "recall": 0.8571428571428571,
+      "mAP50": 0.8865789473684211,
+      "mAP50_95": 0.7332929429250512,
+      "ground_truth_boxes": 7,
+      "ground_truth_images": 7
+    },
+    {
+      "id": 4,
+      "name": "SPEED_LIMIT_30",
+      "precision": 0.7944461099718463,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.8029536390532543,
+      "ground_truth_boxes": 7,
+      "ground_truth_images": 7
+    },
+    {
+      "id": 5,
+      "name": "SPEED_LIMIT_80",
+      "precision": 0.9949577074067285,
+      "recall": 0.7142857142857143,
+      "mAP50": 0.9327777777777779,
+      "mAP50_95": 0.7295459690799397,
+      "ground_truth_boxes": 7,
+      "ground_truth_images": 7
+    }
+  ],
+  "images": 45,
+  "boxes": 45,
+  "completion": {
+    "complete": true,
+    "expected_images": 45,
+    "nms_images": 45,
+    "metric_images": 45,
+    "batches": [
+      {
+        "batch": 1,
+        "source_ids": [
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/11008_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/57016_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/57020_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/57028_jpg.png"
+        ],
+        "nms_completed": true,
+        "detection_counts": [
+          300,
+          300,
+          300,
+          300
+        ]
+      },
+      {
+        "batch": 2,
+        "source_ids": [
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/57033_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/57056_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/57058_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/57065_jpg.png"
+        ],
+        "nms_completed": true,
+        "detection_counts": [
+          300,
+          300,
+          300,
+          300
+        ]
+      },
+      {
+        "batch": 3,
+        "source_ids": [
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/65003_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/65025_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/65041_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/65233_jpg.png"
+        ],
+        "nms_completed": true,
+        "detection_counts": [
+          300,
+          300,
+          300,
+          300
+        ]
+      },
+      {
+        "batch": 4,
+        "source_ids": [
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/65279_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/65297_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/65316_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/70018_jpg.png"
+        ],
+        "nms_completed": true,
+        "detection_counts": [
+          300,
+          300,
+          300,
+          300
+        ]
+      },
+      {
+        "batch": 5,
+        "source_ids": [
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/70021_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/70026_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/70035_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/70053_jpg.png"
+        ],
+        "nms_completed": true,
+        "detection_counts": [
+          300,
+          300,
+          300,
+          300
+        ]
+      },
+      {
+        "batch": 6,
+        "source_ids": [
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/44172_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/70055_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/44160_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/44145_jpg.png"
+        ],
+        "nms_completed": true,
+        "detection_counts": [
+          300,
+          300,
+          300,
+          300
+        ]
+      },
+      {
+        "batch": 7,
+        "source_ids": [
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/11029_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/11033_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/11038_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/11058_jpg.png"
+        ],
+        "nms_completed": true,
+        "detection_counts": [
+          300,
+          300,
+          300,
+          300
+        ]
+      },
+      {
+        "batch": 8,
+        "source_ids": [
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/11094_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/11099_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/11107_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/42001_jpg.png"
+        ],
+        "nms_completed": true,
+        "detection_counts": [
+          300,
+          300,
+          300,
+          300
+        ]
+      },
+      {
+        "batch": 9,
+        "source_ids": [
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/42024_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/42028_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/42046_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/42054_jpg.png"
+        ],
+        "nms_completed": true,
+        "detection_counts": [
+          300,
+          300,
+          300,
+          300
+        ]
+      },
+      {
+        "batch": 10,
+        "source_ids": [
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/42059_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/42068_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/42092_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/44004_jpg.png"
+        ],
+        "nms_completed": true,
+        "detection_counts": [
+          300,
+          300,
+          300,
+          300
+        ]
+      },
+      {
+        "batch": 11,
+        "source_ids": [
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/44075_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/44088_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/44125_jpg.png",
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/44152_jpg.png"
+        ],
+        "nms_completed": true,
+        "detection_counts": [
+          300,
+          300,
+          300,
+          300
+        ]
+      },
+      {
+        "batch": 12,
+        "source_ids": [
+          "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/test/images/70172_jpg.png"
+        ],
+        "nms_completed": true,
+        "detection_counts": [
+          300
+        ]
+      }
+    ],
+    "time_policy": "unlimited_wall_clock; pinned max_time_img argument is positive infinity",
+    "empty_detections_are_valid": true,
+    "scope": {
+      "kind": "checkpoint",
+      "epoch": null
+    }
+  },
+  "condition": "F3",
+  "device": "cpu",
+  "half": false,
+  "settings": {
+    "imgsz": 416,
+    "device": "cpu",
+    "half": false,
+    "amp": false,
+    "batch": 4,
+    "rect": true,
+    "workers": 0,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "agnostic_nms": false,
+    "augment": false,
+    "classes": null,
+    "single_cls": false,
+    "split": "test",
+    "task": "detect",
+    "mode": "val",
+    "plots": false,
+    "save_json": false,
+    "save_txt": false,
+    "compile": false,
+    "data": "$REPRO_CHECKOUT/results/reproduction_runs/run_20261122T012140_6d9d0a4a/views/F3/dataset.yaml"
+  },
+  "seed": 42,
+  "versions": {
+    "certifi": "2026.10.23",
+    "charset-normalizer": "3.5.2",
+    "contourpy": "1.4.0",
+    "cycler": "0.12.1",
+    "filelock": "4.2.12",
+    "fonttools": "4.68.0",
+    "fsspec": "2026.9.0",
+    "idna": "3.20",
+    "iniconfig": "2.3.1",
+    "jinja2": "3.1.6",
+    "kiwisolver": "1.5.1",
+    "markupsafe": "3.0.4",
+    "matplotlib": "3.10.7",
+    "mpmath": "1.3.0",
+    "networkx": "3.7",
+    "numpy": "2.2.6",
+    "opencv-python": "4.12.0.88",
+    "packaging": "26.3",
+    "pandas": "2.3.3",
+    "pillow": "13.0.0",
+    "pluggy": "1.7.0",
+    "polars": "2.1.0",
+    "polars-runtime-32": "2.1.0",
+    "psutil": "7.2.2",
+    "pygments": "2.21.0",
+    "pyparsing": "3.3.3",
+    "pytest": "8.4.2",
+    "python-dateutil": "4.0.0",
+    "pytz": "2026.6",
+    "pyyaml": "6.0.3",
+    "requests": "2.34.2",
+    "scipy": "1.18.1",
+    "setuptools": "84.2.1",
+    "sympy": "1.14.0",
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "typing-extensions": "4.16.0",
+    "tzdata": "2026.6",
+    "ultralytics": "8.3.228",
+    "ultralytics-thop": "2.2.5",
+    "urllib3": "2.8.0"
+  },
+  "checkpoint_sha256": "15ed8470368fc535eed861d89dbee09b55977f1f935b40d41b24e052a6d6e4da",
+  "predictions_sha256": "0443e40ed534f882c2786a3100c8b20f43b0e7a405d665202fd8192a470b7ed5",
+  "source_order": [
+    "11008_jpg",
+    "57016_jpg",
+    "57020_jpg",
+    "57028_jpg",
+    "57033_jpg",
+    "57056_jpg",
+    "57058_jpg",
+    "57065_jpg",
+    "65003_jpg",
+    "65025_jpg",
+    "65041_jpg",
+    "65233_jpg",
+    "65279_jpg",
+    "65297_jpg",
+    "65316_jpg",
+    "70018_jpg",
+    "70021_jpg",
+    "70026_jpg",
+    "70035_jpg",
+    "70053_jpg",
+    "44172_jpg",
+    "70055_jpg",
+    "44160_jpg",
+    "44145_jpg",
+    "11029_jpg",
+    "11033_jpg",
+    "11038_jpg",
+    "11058_jpg",
+    "11094_jpg",
+    "11099_jpg",
+    "11107_jpg",
+    "42001_jpg",
+    "42024_jpg",
+    "42028_jpg",
+    "42046_jpg",
+    "42054_jpg",
+    "42059_jpg",
+    "42068_jpg",
+    "42092_jpg",
+    "44004_jpg",
+    "44075_jpg",
+    "44088_jpg",
+    "44125_jpg",
+    "44152_jpg",
+    "70172_jpg"
+  ],
+  "input_shapes": [
+    [
+      448,
+      448
+    ]
+  ],
+  "runtime_seconds_before_cleanup": 2.154132916999515,
+  "serialized_metrics_recomputed": true
+}

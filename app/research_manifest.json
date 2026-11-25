@@ -1,0 +1,10 @@
+{
+  "version": "W6_portable_readonly",
+  "root": "docs/evaluation_v1/measured",
+  "files": {
+    "paired_table.json": "8a48e28854f570d31a252eddc3034fd4b6f9f0dc1e4f759c50697735b475be8d",
+    "metrics_14.json": "4edfaaf7def118d8ed50c34e52616b03b69a8dd8ee4d310f875fd43febe5f421",
+    "fading_robustness.png": "8211447c3be91dd7c312f71247ab3587fd6b154c50ffbf98a5646bcaaf4bc271",
+    "occlusion_robustness.png": "9c834383b786af965a46c1de09fed7c8f3ce22e90404b5223a79418adf95f0bc"
+  }
+}

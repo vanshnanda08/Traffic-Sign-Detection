@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "scope": "Recovery-v2 W5 replacement pair and complete clean validation only; no held-out evaluation",
+  "runs": {
+    "A": "results/main_ac_recovery_v2/A",
+    "C": "results/main_ac_recovery_v2/C"
+  },
+  "effective_initialization_sha256": "fa0a46dc06278fc877f99d04d05a21ccdd6e075434cf5816f6b5856bd01daa76",
+  "protocol_sha256": "ffa15a791c5591d19fea1e459cb92b890be42e608d709fca4ef6fbac93e1e8b8",
+  "overlay_sha256": "63ff0c3d084426ea69a2a0f810a8378138345914bfd53e82d00b8f64b5ad3b5f",
+  "per_model_expected_budget": {
+    "epochs": 50,
+    "optimizer_update_count": 185,
+    "microbatches": 2650,
+    "image_presentations": 10500,
+    "final_unstepped_images": 42
+  },
+  "same_source_order": true,
+  "full_budget_and_EMA_traces_match": true,
+  "all_validation_passes_complete": true,
+  "durable_journals_and_commits_verified": true,
+  "both_process_exit_codes": 0,
+  "G05_reference_status": "blocked"
+}

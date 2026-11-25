@@ -1,0 +1,76 @@
+{
+  "version": "detector_evaluation_v1",
+  "scope": "First frozen held-out evaluation; no training or checkpoint selection",
+  "seed": 42,
+  "core": "data/processed/p57_core300_v2",
+  "core_lock_sha256": "ec2b3d0acef8bc03717a606313aae6b6b10ad91d37ebb6e6eecdda72c1fded51",
+  "replacement_protocol_sha256": "ffa15a791c5591d19fea1e459cb92b890be42e608d709fca4ef6fbac93e1e8b8",
+  "checkpoints": {
+    "A": {
+      "path": "results/main_ac_recovery_v2/A/fit/weights/best.pt",
+      "sha256": "15ed8470368fc535eed861d89dbee09b55977f1f935b40d41b24e052a6d6e4da"
+    },
+    "C": {
+      "path": "results/main_ac_recovery_v2/C/fit/weights/best.pt",
+      "sha256": "cb918cad486d0fc6a2eb4c4886cd446bb4aef430d2f6e3581ccc2abff84c8091"
+    }
+  },
+  "conditions": [
+    "clean",
+    "F1",
+    "F2",
+    "F3",
+    "O1",
+    "O2",
+    "O3"
+  ],
+  "derived_root": "data/processed/p57_heldout_conditions_v1",
+  "output_root": "results/detector_eval_v1",
+  "degradation_config": "configs/degradation_dev_v1.json",
+  "degradation_implementation": "src/p57/degradation.py",
+  "bbox_dtype": "float32, then tolist exactly as frozen online adapter",
+  "encoding": "PNG for every view including clean; compression3",
+  "settings": {
+    "imgsz": 416,
+    "device": "mps",
+    "half": false,
+    "amp": false,
+    "batch": 4,
+    "rect": true,
+    "workers": 0,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "agnostic_nms": false,
+    "augment": false,
+    "classes": null,
+    "single_cls": false,
+    "split": "test",
+    "task": "detect",
+    "mode": "val",
+    "plots": false,
+    "save_json": false,
+    "save_txt": false,
+    "compile": false
+  },
+  "NMS": "p57.complete_validation.complete_nms; unlimited wall clock; multi_label=True from pinned DetectionValidator",
+  "AP_matching": "pinned BaseValidator.match_predictions; IoU0.50:0.05:0.95",
+  "PR": "macro class P/R at common smoothed mean-class best-F1 index; not fixed0.25",
+  "tolerances": {
+    "development_metric_absolute": 1e-10,
+    "development_prediction_absolute": 1e-06,
+    "serialized_metric_absolute": 1e-10
+  },
+  "failure_rule": {
+    "confidence": 0.25,
+    "iou": 0.5,
+    "space": "stored metric/input coordinates and stored IoU matrix; original coordinates for drawing",
+    "matching": "pinned greedy class-aware IoU matching after confidence filtering; wrong-class may be FP and FN",
+    "FP_FN_selection": "up to3 unique source IDs per type; sort by descending failure count then source_id, condition order, model order",
+    "paired_cases": "worst C-minus-A error count; best C-minus-A error count; hardest equal-error neutral; hardest total errors. Strict sign needed for better/worse; absent categories declared",
+    "render": "paired stored A/C predictions only; no separate prediction calls"
+  },
+  "evaluation_order": "condition-major then A,C; separate fresh process and output dir per evaluation",
+  "no_test_tuning": true,
+  "preprocessing": "Preserve frozen ScheduledYOLODataset resize/LetterBox/Format: nominal imgsz416, rectTrue, stride32, default pad0.5; actual input shapes recorded (square sources typically448). No post-test preprocessing changes."
+}

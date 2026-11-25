@@ -1,0 +1,8 @@
+{
+  "returncode": 0,
+  "pid": 49773,
+  "elapsed_seconds_including_cleanup": 14.756839250010671,
+  "wall_span_seconds": 14.756823778152466,
+  "model": "A",
+  "condition": "O2"
+}

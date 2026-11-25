@@ -1,0 +1,577 @@
+[
+  {
+    "name": "altair",
+    "pinned_version": "5.5.0",
+    "installed_version": "5.5.0",
+    "license_metadata_first_line": "Copyright (c) 2015-2023, Vega-Altair Developers",
+    "project_urls": [
+      "Documentation, https://altair-viz.github.io",
+      "Source, https://github.com/vega/altair"
+    ],
+    "home_page": null,
+    "license_files": [
+      "altair-5.5.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "attrs",
+    "pinned_version": "26.1.0",
+    "installed_version": "26.1.0",
+    "license_metadata_first_line": "MIT",
+    "project_urls": [
+      "Documentation, https://www.attrs.org/",
+      "Changelog, https://www.attrs.org/en/stable/changelog.html",
+      "GitHub, https://github.com/python-attrs/attrs",
+      "Funding, https://github.com/sponsors/hynek",
+      "Tidelift, https://tidelift.com/subscription/pkg/pypi-attrs?utm_source=pypi-attrs&utm_medium=pypi"
+    ],
+    "home_page": null,
+    "license_files": [
+      "attrs-26.1.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "blinker",
+    "pinned_version": "1.9.0",
+    "installed_version": "1.9.0",
+    "license_metadata_first_line": "not declared in package metadata; inspect upstream",
+    "project_urls": [
+      "Chat, https://discord.gg/pallets",
+      "Documentation, https://blinker.readthedocs.io",
+      "Source, https://github.com/pallets-eco/blinker/"
+    ],
+    "home_page": null,
+    "license_files": [
+      "blinker-1.9.0.dist-info/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "cachetools",
+    "pinned_version": "6.2.6",
+    "installed_version": "6.2.6",
+    "license_metadata_first_line": "MIT",
+    "project_urls": [
+      "Homepage, https://github.com/tkem/cachetools/"
+    ],
+    "home_page": null,
+    "license_files": [
+      "cachetools-6.2.6.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "certifi",
+    "pinned_version": "2026.11.20",
+    "installed_version": "2026.11.20",
+    "license_metadata_first_line": "MPL-2.0",
+    "project_urls": [
+      "Source, https://github.com/certifi/python-certifi"
+    ],
+    "home_page": "https://github.com/certifi/python-certifi",
+    "license_files": [
+      "certifi-2026.11.20.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "charset-normalizer",
+    "pinned_version": "3.5.2",
+    "installed_version": "3.5.2",
+    "license_metadata_first_line": "MIT",
+    "project_urls": [
+      "Changelog, https://github.com/jawah/charset_normalizer/blob/master/CHANGELOG.md",
+      "Documentation, https://charset-normalizer.readthedocs.io/",
+      "Code, https://github.com/jawah/charset_normalizer",
+      "Issue tracker, https://github.com/jawah/charset_normalizer/issues"
+    ],
+    "home_page": null,
+    "license_files": [
+      "charset_normalizer-3.5.2.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "click",
+    "pinned_version": "8.5.1",
+    "installed_version": "8.5.1",
+    "license_metadata_first_line": "BSD-3-Clause",
+    "project_urls": [
+      "Changes, https://click.palletsprojects.com/page/changes/",
+      "Chat, https://discord.gg/pallets",
+      "Documentation, https://click.palletsprojects.com/",
+      "Donate, https://palletsprojects.com/donate",
+      "Source, https://github.com/pallets/click/"
+    ],
+    "home_page": null,
+    "license_files": [
+      "click-8.5.1.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "gitdb",
+    "pinned_version": "4.0.12",
+    "installed_version": "4.0.12",
+    "license_metadata_first_line": "BSD License",
+    "project_urls": [],
+    "home_page": "https://github.com/gitpython-developers/gitdb",
+    "license_files": [
+      "gitdb-4.0.12.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "gitpython",
+    "pinned_version": "3.2.1",
+    "installed_version": "3.2.1",
+    "license_metadata_first_line": "BSD-3-Clause",
+    "project_urls": [
+      "Source code, https://github.com/gitpython-developers/GitPython",
+      "Documentation, https://gitpython.readthedocs.io/en/stable/",
+      "Changelog, https://github.com/gitpython-developers/GitPython/blob/main/doc/source/changes.rst"
+    ],
+    "home_page": null,
+    "license_files": [
+      "gitpython-3.2.1.dist-info/licenses/AUTHORS",
+      "gitpython-3.2.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "idna",
+    "pinned_version": "3.20",
+    "installed_version": "3.20",
+    "license_metadata_first_line": "BSD-3-Clause",
+    "project_urls": [
+      "Changelog, https://github.com/kjd/idna/blob/master/HISTORY.md",
+      "Issue tracker, https://github.com/kjd/idna/issues",
+      "Source, https://github.com/kjd/idna"
+    ],
+    "home_page": null,
+    "license_files": [
+      "idna-3.20.dist-info/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "name": "jinja2",
+    "pinned_version": "3.1.6",
+    "installed_version": "3.1.6",
+    "license_metadata_first_line": "not declared in package metadata; inspect upstream",
+    "project_urls": [
+      "Changes, https://jinja.palletsprojects.com/changes/",
+      "Chat, https://discord.gg/pallets",
+      "Documentation, https://jinja.palletsprojects.com/",
+      "Donate, https://palletsprojects.com/donate",
+      "Source, https://github.com/pallets/jinja/"
+    ],
+    "home_page": null,
+    "license_files": [
+      "jinja2-3.1.6.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "jsonschema",
+    "pinned_version": "4.26.0",
+    "installed_version": "4.26.0",
+    "license_metadata_first_line": "MIT",
+    "project_urls": [
+      "Homepage, https://github.com/python-jsonschema/jsonschema",
+      "Documentation, https://python-jsonschema.readthedocs.io/",
+      "Issues, https://github.com/python-jsonschema/jsonschema/issues/",
+      "Funding, https://github.com/sponsors/Julian",
+      "Tidelift, https://tidelift.com/subscription/pkg/pypi-jsonschema?utm_source=pypi-jsonschema&utm_medium=referral&utm_campaign=pypi-link",
+      "Changelog, https://github.com/python-jsonschema/jsonschema/blob/main/CHANGELOG.rst",
+      "Source, https://github.com/python-jsonschema/jsonschema"
+    ],
+    "home_page": null,
+    "license_files": [
+      "jsonschema-4.26.0.dist-info/licenses/COPYING"
+    ]
+  },
+  {
+    "name": "jsonschema-specifications",
+    "pinned_version": "2025.9.1",
+    "installed_version": "2025.9.1",
+    "license_metadata_first_line": "MIT",
+    "project_urls": [
+      "Documentation, https://jsonschema-specifications.readthedocs.io/",
+      "Homepage, https://github.com/python-jsonschema/jsonschema-specifications",
+      "Issues, https://github.com/python-jsonschema/jsonschema-specifications/issues/",
+      "Funding, https://github.com/sponsors/Julian",
+      "Tidelift, https://tidelift.com/subscription/pkg/pypi-jsonschema-specifications?utm_source=pypi-jsonschema-specifications&utm_medium=referral&utm_campaign=pypi-link",
+      "Source, https://github.com/python-jsonschema/jsonschema-specifications"
+    ],
+    "home_page": null,
+    "license_files": [
+      "jsonschema_specifications-2025.9.1.dist-info/licenses/COPYING"
+    ]
+  },
+  {
+    "name": "markupsafe",
+    "pinned_version": "3.0.4",
+    "installed_version": "3.0.4",
+    "license_metadata_first_line": "BSD-3-Clause",
+    "project_urls": [
+      "Donate, https://palletsprojects.com/donate",
+      "Documentation, https://markupsafe.palletsprojects.com/",
+      "Changes, https://markupsafe.palletsprojects.com/page/changes/",
+      "Source, https://github.com/pallets/markupsafe/",
+      "Chat, https://discord.gg/pallets"
+    ],
+    "home_page": null,
+    "license_files": [
+      "markupsafe-3.0.4.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "narwhals",
+    "pinned_version": "2.29.0",
+    "installed_version": "2.29.0",
+    "license_metadata_first_line": "MIT",
+    "project_urls": [
+      "Homepage, https://github.com/narwhals-dev/narwhals",
+      "Documentation, https://narwhals-dev.github.io/narwhals/",
+      "Repository, https://github.com/narwhals-dev/narwhals",
+      "Bug Tracker, https://github.com/narwhals-dev/narwhals/issues"
+    ],
+    "home_page": null,
+    "license_files": [
+      "narwhals-2.29.0.dist-info/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "name": "numpy",
+    "pinned_version": "2.5.5",
+    "installed_version": "2.5.5",
+    "license_metadata_first_line": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "project_urls": [
+      "homepage, https://numpy.org",
+      "documentation, https://numpy.org/doc/",
+      "source, https://github.com/numpy/numpy",
+      "download, https://pypi.org/project/numpy/#files",
+      "tracker, https://github.com/numpy/numpy/issues",
+      "release notes, https://numpy.org/doc/stable/release"
+    ],
+    "home_page": null,
+    "license_files": [
+      "numpy-2.5.5.dist-info/licenses/LICENSE.txt",
+      "numpy-2.5.5.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "numpy-2.5.5.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "numpy-2.5.5.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+      "numpy-2.5.5.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+      "numpy-2.5.5.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "numpy-2.5.5.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+      "numpy-2.5.5.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+      "numpy-2.5.5.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+      "numpy-2.5.5.dist-info/licenses/numpy/ma/LICENSE",
+      "numpy-2.5.5.dist-info/licenses/numpy/random/LICENSE.md",
+      "numpy-2.5.5.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+      "numpy-2.5.5.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+      "numpy-2.5.5.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+      "numpy-2.5.5.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+      "numpy-2.5.5.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+      "numpy-2.5.5.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+      "numpy/_core/include/numpy/random/LICENSE.txt",
+      "numpy/ma/LICENSE",
+      "numpy/random/LICENSE.md"
+    ]
+  },
+  {
+    "name": "packaging",
+    "pinned_version": "25.0",
+    "installed_version": "25.0",
+    "license_metadata_first_line": "not declared in package metadata; inspect upstream",
+    "project_urls": [
+      "Documentation, https://packaging.pypa.io/",
+      "Source, https://github.com/pypa/packaging"
+    ],
+    "home_page": null,
+    "license_files": [
+      "packaging-25.0.dist-info/licenses/LICENSE",
+      "packaging-25.0.dist-info/licenses/LICENSE.APACHE",
+      "packaging-25.0.dist-info/licenses/LICENSE.BSD",
+      "packaging/licenses/__init__.py",
+      "packaging/licenses/_spdx.py"
+    ]
+  },
+  {
+    "name": "pandas",
+    "pinned_version": "2.3.3",
+    "installed_version": "2.3.3",
+    "license_metadata_first_line": "BSD 3-Clause License",
+    "project_urls": [
+      "homepage, https://pandas.pydata.org",
+      "documentation, https://pandas.pydata.org/docs/",
+      "repository, https://github.com/pandas-dev/pandas"
+    ],
+    "home_page": null,
+    "license_files": [
+      "pandas-2.3.3.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "pillow",
+    "pinned_version": "11.3.0",
+    "installed_version": "11.3.0",
+    "license_metadata_first_line": "MIT-CMU",
+    "project_urls": [
+      "Changelog, https://github.com/python-pillow/Pillow/releases",
+      "Documentation, https://pillow.readthedocs.io",
+      "Funding, https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi",
+      "Homepage, https://python-pillow.github.io",
+      "Mastodon, https://fosstodon.org/@pillow",
+      "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+      "Source, https://github.com/python-pillow/Pillow"
+    ],
+    "home_page": null,
+    "license_files": [
+      "pillow-11.3.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "protobuf",
+    "pinned_version": "6.33.6",
+    "installed_version": "6.33.6",
+    "license_metadata_first_line": "3-Clause BSD License",
+    "project_urls": [],
+    "home_page": "https://developers.google.com/protocol-buffers/",
+    "license_files": [
+      "protobuf-6.33.6.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "psutil",
+    "pinned_version": "7.2.2",
+    "installed_version": "7.2.2",
+    "license_metadata_first_line": "BSD-3-Clause",
+    "project_urls": [],
+    "home_page": "https://github.com/giampaolo/psutil",
+    "license_files": [
+      "psutil-7.2.2.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "pyarrow",
+    "pinned_version": "26.0.1",
+    "installed_version": "26.0.1",
+    "license_metadata_first_line": "Apache-2.0",
+    "project_urls": [
+      "Homepage, https://arrow.apache.org/",
+      "Documentation, https://arrow.apache.org/docs/python",
+      "Repository, https://github.com/apache/arrow",
+      "Issues, https://github.com/apache/arrow/issues"
+    ],
+    "home_page": null,
+    "license_files": [
+      "pyarrow-26.0.1.dist-info/licenses/LICENSE.txt",
+      "pyarrow-26.0.1.dist-info/licenses/NOTICE.txt"
+    ]
+  },
+  {
+    "name": "pydeck",
+    "pinned_version": "0.9.3",
+    "installed_version": "0.9.3",
+    "license_metadata_first_line": "Apache License 2.0",
+    "project_urls": [],
+    "home_page": "https://github.com/visgl/deck.gl/tree/master/bindings/pydeck",
+    "license_files": [
+      "pydeck-0.9.3.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "python-dateutil",
+    "pinned_version": "4.0.0",
+    "installed_version": "4.0.0",
+    "license_metadata_first_line": "BSD-3-Clause",
+    "project_urls": [
+      "Homepage, https://github.com/dateutil/dateutil",
+      "Documentation, https://dateutil.readthedocs.io/en/stable/",
+      "Source, https://github.com/dateutil/dateutil"
+    ],
+    "home_page": null,
+    "license_files": [
+      "python_dateutil-4.0.0.dist-info/licenses/AUTHORS.md",
+      "python_dateutil-4.0.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "pytz",
+    "pinned_version": "2026.6",
+    "installed_version": "2026.6",
+    "license_metadata_first_line": "MIT",
+    "project_urls": [
+      "Source, https://github.com/stub42/pytz.git",
+      "Issues, https://github.com/stub42/pytz/issues"
+    ],
+    "home_page": "http://pythonhosted.org/pytz",
+    "license_files": [
+      "pytz-2026.6.dist-info/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "referencing",
+    "pinned_version": "0.37.0",
+    "installed_version": "0.37.0",
+    "license_metadata_first_line": "MIT",
+    "project_urls": [
+      "Documentation, https://referencing.readthedocs.io/",
+      "Homepage, https://github.com/python-jsonschema/referencing",
+      "Issues, https://github.com/python-jsonschema/referencing/issues/",
+      "Funding, https://github.com/sponsors/Julian",
+      "Tidelift, https://tidelift.com/subscription/pkg/pypi-referencing?utm_source=pypi-referencing&utm_medium=referral&utm_campaign=pypi-link",
+      "Changelog, https://referencing.readthedocs.io/en/stable/changes/",
+      "Source, https://github.com/python-jsonschema/referencing"
+    ],
+    "home_page": null,
+    "license_files": [
+      "referencing-0.37.0.dist-info/licenses/COPYING"
+    ]
+  },
+  {
+    "name": "requests",
+    "pinned_version": "2.34.2",
+    "installed_version": "2.34.2",
+    "license_metadata_first_line": "Apache-2.0",
+    "project_urls": [
+      "Documentation, https://requests.readthedocs.io",
+      "Source, https://github.com/psf/requests"
+    ],
+    "home_page": null,
+    "license_files": [
+      "requests-2.34.2.dist-info/licenses/LICENSE",
+      "requests-2.34.2.dist-info/licenses/NOTICE"
+    ]
+  },
+  {
+    "name": "rpds-py",
+    "pinned_version": "2026.9.1",
+    "installed_version": "2026.9.1",
+    "license_metadata_first_line": "MIT",
+    "project_urls": [
+      "Documentation, https://rpds.readthedocs.io/",
+      "Funding, https://github.com/sponsors/Julian",
+      "Homepage, https://github.com/crate-py/rpds",
+      "Issues, https://github.com/crate-py/rpds/issues/",
+      "Source, https://github.com/crate-py/rpds",
+      "Tidelift, https://tidelift.com/subscription/pkg/pypi-rpds-py?utm_source=pypi-rpds-py&utm_medium=referral&utm_campaign=pypi-link",
+      "Upstream, https://github.com/orium/rpds"
+    ],
+    "home_page": null,
+    "license_files": [
+      "rpds_py-2026.9.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "smmap",
+    "pinned_version": "5.0.3",
+    "installed_version": "5.0.3",
+    "license_metadata_first_line": "BSD-3-Clause",
+    "project_urls": [],
+    "home_page": "https://github.com/gitpython-developers/smmap",
+    "license_files": [
+      "smmap-5.0.3.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "streamlit",
+    "pinned_version": "1.50.0",
+    "installed_version": "1.50.0",
+    "license_metadata_first_line": "Apache License 2.0",
+    "project_urls": [
+      "Source Code, https://github.com/streamlit/streamlit",
+      "Bug Tracker, https://github.com/streamlit/streamlit/issues",
+      "Release notes, https://docs.streamlit.io/develop/quick-reference/changelog",
+      "Documentation, https://docs.streamlit.io/",
+      "Community, https://discuss.streamlit.io/",
+      "Twitter, https://twitter.com/streamlit"
+    ],
+    "home_page": "https://streamlit.io",
+    "license_files": []
+  },
+  {
+    "name": "tenacity",
+    "pinned_version": "9.2.1",
+    "installed_version": "9.2.1",
+    "license_metadata_first_line": "Apache-2.0",
+    "project_urls": [
+      "Homepage, https://github.com/jd/tenacity",
+      "Documentation, https://tenacity.readthedocs.io",
+      "Source, https://github.com/jd/tenacity",
+      "Issues, https://github.com/jd/tenacity/issues",
+      "Changelog, https://tenacity.readthedocs.io/en/latest/changelog.html"
+    ],
+    "home_page": null,
+    "license_files": [
+      "tenacity-9.2.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "toml",
+    "pinned_version": "0.10.2",
+    "installed_version": "0.10.2",
+    "license_metadata_first_line": "MIT",
+    "project_urls": [],
+    "home_page": "https://github.com/uiri/toml",
+    "license_files": [
+      "toml-0.10.2.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "tornado",
+    "pinned_version": "6.6.1",
+    "installed_version": "6.6.1",
+    "license_metadata_first_line": "Apache-2.0",
+    "project_urls": [
+      "Source, https://github.com/tornadoweb/tornado"
+    ],
+    "home_page": "http://www.tornadoweb.org/",
+    "license_files": [
+      "tornado-6.6.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "typing-extensions",
+    "pinned_version": "4.16.0",
+    "installed_version": "4.16.0",
+    "license_metadata_first_line": "PSF-2.0",
+    "project_urls": [
+      "Bug Tracker, https://github.com/python/typing_extensions/issues",
+      "Changes, https://github.com/python/typing_extensions/blob/main/CHANGELOG.md",
+      "Documentation, https://typing-extensions.readthedocs.io/",
+      "Home, https://github.com/python/typing_extensions",
+      "Q & A, https://github.com/python/typing/discussions",
+      "Repository, https://github.com/python/typing_extensions"
+    ],
+    "home_page": null,
+    "license_files": [
+      "typing_extensions-4.16.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "tzdata",
+    "pinned_version": "2026.6",
+    "installed_version": "2026.6",
+    "license_metadata_first_line": "Apache-2.0",
+    "project_urls": [
+      "Bug Reports, https://github.com/python/tzdata/issues",
+      "Source, https://github.com/python/tzdata",
+      "Documentation, https://tzdata.python.org"
+    ],
+    "home_page": "https://github.com/python/tzdata",
+    "license_files": [
+      "tzdata-2026.6.dist-info/licenses/LICENSE",
+      "tzdata-2026.6.dist-info/licenses/licenses/LICENSE_APACHE"
+    ]
+  },
+  {
+    "name": "urllib3",
+    "pinned_version": "2.8.0",
+    "installed_version": "2.8.0",
+    "license_metadata_first_line": "MIT",
+    "project_urls": [
+      "Changelog, https://github.com/urllib3/urllib3/blob/main/CHANGES.rst",
+      "Documentation, https://urllib3.readthedocs.io",
+      "Code, https://github.com/urllib3/urllib3",
+      "Issue tracker, https://github.com/urllib3/urllib3/issues",
+      "Security policy, https://urllib3.readthedocs.io/en/latest/security.html"
+    ],
+    "home_page": null,
+    "license_files": [
+      "urllib3-2.8.0.dist-info/licenses/LICENSE.txt"
+    ]
+  }
+]

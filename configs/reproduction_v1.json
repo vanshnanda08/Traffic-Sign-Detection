@@ -1,0 +1,22 @@
+{
+  "version": "w8a_reproduction_v1",
+  "manifest": "docs/reproduction_v1/release_manifest.json",
+  "manifest_sha256": "635054b23c4a68a4cab9fd7f93e1407516b7a3f97b3d9a92ecf657925355c877",
+  "seed": 42,
+  "default_device": "cpu",
+  "cross_device_tolerances_declared_before_development": {
+    "precision": 0.01,
+    "recall": 0.01,
+    "mAP50": 0.005,
+    "mAP50_95": 0.005
+  },
+  "same_device_tolerance": 1e-10,
+  "serialization_tolerance": 1e-10,
+  "development_prediction_tolerances": {
+    "minimum_score": 0.25,
+    "xyxy_absolute_pixels": 0.1,
+    "confidence_absolute": 0.0001,
+    "class_and_count_exact": true
+  },
+  "rationale": "FP32 backend rounding can change NMS/AP interpolation and smoothed best-F1 selection. Declare bounded .5pp AP/1pp P-R across devices; dev high-confidence geometry/score checks required. Same-device identity stricter. No widening based on test."
+}
