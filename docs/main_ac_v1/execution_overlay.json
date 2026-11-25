@@ -1,0 +1,17 @@
+{
+  "W4_receipt_sha256": "d731fa26206ada0c4a1370ce77c4984a93a0f51c1fa287b211c445b983738b76",
+  "files": {
+    "scripts/check_main_run.py": "13c86a62b2368b5366593afe2f910f6b06b78746318effbf288a514971525018",
+    "scripts/create_main_overlay.py": "f2e4e1fb28d2a763eef6985dced2471ffc779bf93c778d3dd9004de3d394a55b",
+    "scripts/train_main.py": "44699275e4eb0f8c543022638f3f771cc4174177f6bffcf895178f94ee25d98e",
+    "scripts/verify_main_pair.py": "425bae98991eac775e5d166b44312822ad499c630bc5aac0d206db91d232dfd9",
+    "src/p57/main_training.py": "0b7c6de5f8aa0a841a6e8c08bfd571ce4a93deafbef782fd435345d74a0fa43c",
+    "src/p57/main_verification.py": "e35b398a39ccc8d7ea62a88c3b93ebd1f4c052086a6f1afe29e5c6c4394b4b43",
+    "tests/test_main_training.py": "5b532420919b3e27a7e5c59bcdde8a26bf991495248f8b09852d2812b195963a"
+  },
+  "git_commit": null,
+  "protocol_sha256": "802144f7501490b35cf371395c88a1ce1d0206fcc2a9b64aef33fbb54b305626",
+  "scope": "Identical additive execution code for A/C; no W4 scientific component changed",
+  "snapshot": "results/main_ac_v1/execution_snapshot",
+  "version": "W5-execution-v1"
+}

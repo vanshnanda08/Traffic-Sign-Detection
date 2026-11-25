@@ -1,0 +1,20 @@
+{
+  "version": "recovery-v2",
+  "files": {
+    "src/p57/complete_validation.py": "d52709e30431490fb0a0a0433a2b82947b4d4ec773c3bfdc2fc9ffddcc436ae7",
+    "src/p57/durability.py": "8480ac2c60e2b5a1762b22d6af7e338e97e1b7696d8fa789d1825f0a6d157c16",
+    "src/p57/recovery_protocol.py": "d90a2ab18e42ef8f41f1ee2c6439b527f8c7e1cbb4b99bcff97584147a40e64c",
+    "src/p57/recovery_training.py": "15ae394eb823e614ed0c373029973c5ca0cf90a8793226727cdc1b3bb7883b2b",
+    "src/p57/recovery_verification.py": "7cad3bd171299030a78e550fcbf9e265d5a15cf32fca309cdc282a378bfa9890",
+    "scripts/train_recovery.py": "5cf3cd52b6253137dbcf32abfa38d5a8fa1e640410a3d17c5b9876c3940c3f77",
+    "scripts/supervise_recovery.py": "de49248858102649fb4ff889eebaa3962ec3ab9c73328095d67dd6aaa8a9533c",
+    "scripts/recovery_preflight.py": "b7c0955b0191ab20a997b9b65573835c3ec18e51487508ed829432a5011f6113",
+    "scripts/check_recovery.py": "e25283378b971cc79be16351f462141aa1fd5603b42eefe2507b98d2a1a86787",
+    "scripts/create_recovery_contract.py": "dba358305fb54667286367ad8afc4ac076c6f693fe7333178f4a981e0d6a9a02",
+    "tests/test_recovery.py": "6595df62742c93fac3158dcc39d57df65fc5e140a5693ada64a1cfc5a27c42af",
+    "configs/main_ac_recovery_v2.json": "ffa15a791c5591d19fea1e459cb92b890be42e608d709fca4ef6fbac93e1e8b8"
+  },
+  "snapshot": "results/main_ac_recovery_v2/execution_snapshots/6bb0ab28b11f03c6b4d009c5ec0900493ae7279a1356d5abd69edf6a9f9ddf9f",
+  "git_commit": null,
+  "parent_overlay_sha256": "56dc0dbdb507b1f1a9cde892e9f6a846e2acf409d467ae830f2e45b486301fdb"
+}

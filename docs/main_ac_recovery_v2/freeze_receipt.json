@@ -1,0 +1,47 @@
+{
+  "version": "recovery-v2",
+  "protocol_sha256": "ffa15a791c5591d19fea1e459cb92b890be42e608d709fca4ef6fbac93e1e8b8",
+  "overlay_sha256": "63ff0c3d084426ea69a2a0f810a8378138345914bfd53e82d00b8f64b5ad3b5f",
+  "parent_files": {
+    "configs/main_ac_frozen_v1.json": "802144f7501490b35cf371395c88a1ce1d0206fcc2a9b64aef33fbb54b305626",
+    "docs/protocol_w4_v1/freeze_receipt.json": "d731fa26206ada0c4a1370ce77c4984a93a0f51c1fa287b211c445b983738b76",
+    "docs/main_ac_v1/execution_overlay.json": "56dc0dbdb507b1f1a9cde892e9f6a846e2acf409d467ae830f2e45b486301fdb",
+    "docs/main_ac_v1/interruption.json": "fdee10ad9c3e2425552bc3af3cfa6007c8525eb1d20261e7ce371e471989e28f"
+  },
+  "exposure_manifest_sha256": "ea7cb07bd1284d0a3c9a7fd187f182f2a88254f7fef5908fb4a914c470acc565",
+  "parent_library_hashes": {
+    "train_loop": "175ab11996f18dd023e0686bf01515c59bb34198d9e4b68718f65213aa532af0",
+    "setup": "73ecd0b4ef91d387bea2afabb842ac2820e97f89b02ad66dc5738ce8bee41269",
+    "scheduler": "2102ad770f8e4e6fc7aa740111c977d8a295d70266f59fe09f8285f40ee0abcd",
+    "optimizer": "6822399e2c65ea4da122d8e7f3c0b8df2f2fc609684f1b7117ebb20722d32aff",
+    "optimizer_step": "534029932ad86e25acb9bf80eb74e8699d74ae98706b44b1b5525a1e5a43f428",
+    "validate": "4cfc8e5f78962ad95e5479619672ad6a7bcc4c9ec1a616c6d514e676b1bab93a",
+    "save_model": "5f2b57d19a7b7ea4441ff2a7f922a59e202c38a86141c4c4aa907f5b709eec71",
+    "fitness": "0974dd7155b550aa7e471f4cc1cdf71f919cebd0ad0685bd36501196978433e6",
+    "ap_per_class": "5db6d5855fc802656a1e857ec8399af2b9e7e31e21d2473a0daa617a6068472b",
+    "compute_ap": "5fc199694a6e49ca4d0f16078b21c8a25d0b121f67654f6bdf30e5ee9c6dbc37",
+    "EMA": "7514158651e1d21f4faea50306f2d76613732def207927dfdf77ec521cd56e81",
+    "validator_call": "484d662d0622ff1cdb8de13b7439233da4e364787558215a5dfafc63b666f2ab",
+    "detector_validator_init": "9597ac6aad19caac1616c289f4b0e3aab6515185bc32493f30039dcc37d8e53d"
+  },
+  "extra_library_source_hashes": {
+    "non_max_suppression": "ec0805834134bb95209b15345c582542fc2f4e2d6073607447f23715e0d0d73e",
+    "validator_postprocess": "0fcb34c909736510ecd5aa06bf4a2102b71563d1fbee0f5b2217dfa2f46a4413",
+    "validator_update_metrics": "814b85bc9cea46d9d548f71b6b3372c5613e007ef1756142695ec9117ad868d4",
+    "validator_get_stats": "3dae237b8a29a7ef005c095e044af9f7ed41c7bb0831a17448be85567fd683ee",
+    "predictor_postprocess": "a717de43fd29b417368e8b689098ee332b7efb5d24dc0cd91f95e0eb15c0d5b7"
+  },
+  "budget": {
+    "epochs": 50,
+    "microbatches": 2650,
+    "image_presentations": 10500,
+    "optimizer_update_count": 185,
+    "final_unstepped_images": 42,
+    "nominal_steady_accumulation": 16
+  },
+  "commands": [
+    "PYTHONPATH=src PYTHONHASHSEED=42 PYTORCH_ENABLE_MPS_FALLBACK=0 YOLO_AUTOINSTALL=false .venv/bin/python scripts/supervise_recovery.py --model A --run-dir results/main_ac_recovery_v2/A",
+    "PYTHONPATH=src PYTHONHASHSEED=42 PYTORCH_ENABLE_MPS_FALLBACK=0 YOLO_AUTOINSTALL=false .venv/bin/python scripts/supervise_recovery.py --model C --run-dir results/main_ac_recovery_v2/C"
+  ],
+  "status": "frozen candidate; run only after tests and all45-source preflight pass"
+}

@@ -23,14 +23,13 @@ of +20.587 to +40.954 points for the frozen sources and weights.
 
 Use Python 3.12.16 on Apple Silicon macOS, the pinned [requirements](requirements.txt)
 and a system-provided Arial font. The local evaluator authenticates all required
-files before running. The expected local reproduction archive has SHA-256
-`ba3b8cd05cd1ad0ea4c278b132abf3fa8e2f7ebc065e3ceccceb6461682532c4`.
-Public assets await distribution clearance. Use an authorized copy.
+files before running. Follow the [authorized-input procedure](docs/AUTHORIZED_INPUTS.md)
+for exact data and checkpoint acquisition.
 
 ```bash
 uv venv --python 3.12.16 .venv
 uv pip sync --python .venv/bin/python requirements.txt
-.venv/bin/python scripts/release_assets.py install --archive /path/to/p57_reproduction_assets_v1.zip
+# Install the exact authorized inputs using the procedure linked above.
 .venv/bin/python scripts/release_assets.py verify
 bash run_all.sh
 ```
@@ -48,5 +47,6 @@ pretrained weights and evaluator; other pinned software is credited in the
 [UI](docs/release_v1/ui_dependency_credits.json) inventories.
 The referenced
 [asset notices](docs/release_v1/ASSET_NOTICES.md) and pinned dependency license
-describe the relevant upstream terms. The project distribution basis is
-pending approval. GTSRB was unexecuted.
+describe the relevant upstream terms. [Project AGPL-3.0 license](LICENSE) ·
+[Notices](NOTICE.md) · [Corresponding source](docs/CORRESPONDING_SOURCE.md).
+GTSRB was unexecuted.
