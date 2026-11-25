@@ -1,0 +1,48 @@
+{
+  "scope": "Read-only verification of retained aggregate results, run stdout, freeze receipt, source hashes and archive metadata. No image inference or training.",
+  "evidence_sha256": {
+    "freeze_receipt.json": "5b24206ed1bfaab419ca6add4c717a1c95b5c3b8430f1a474d0517b4e2e75074",
+    "test_metrics.json": "84e034aec462fe345791cbc942c36eb090497cda0bd69b1bcd278756be056adc",
+    "run.stdout.txt": "5446abb1a47f84ececd6860a128f6f47e43a881bb8e5187b91d77c5d41c44d51"
+  },
+  "historical_script_sha256": "5cea90d2538c7d6c96e714c00ccb690eb85b28f807419a45391fbd6e1bc86ae8",
+  "public_script_sha256": "502aac03ada166f89d4e36d4c5f265f2f06dceb7507daef1d2276cd593733874",
+  "public_script_changes": "Module docstring and one comment. Executable AST matches the historical script.",
+  "checkpoint_and_source_archives_match_freeze_receipt": true,
+  "held_out_recognition": {
+    "correct": 2193,
+    "total": 2400,
+    "accuracy_percent": "91.375",
+    "test_count_by_gtsrb_id": {
+      "1": 720,
+      "5": 630,
+      "17": 360,
+      "38": 690
+    },
+    "per_class_recalls_and_stdout_matrix_match": true
+  },
+  "validation_selection": {
+    "logged_epochs": 15,
+    "selected_epoch": 14,
+    "selected_validation_accuracy": 0.9931129476584022,
+    "selection_uses_validation_and_records_checkpoint_before_test_in_historical_script": true
+  },
+  "training_archive_filename_audit": {
+    "grouping_used": "Class and frame-index filename component",
+    "train_frame_index_groups": 96,
+    "validation_frame_index_groups": 24,
+    "physical_sign_tracks_in_train": 242,
+    "physical_sign_tracks_in_validation": 242,
+    "physical_sign_tracks_in_both": 242,
+    "intended_exclusions_remained": {
+      "00001/00013": {
+        "training_images": 24,
+        "validation_images": 6
+      },
+      "00001/00066": {
+        "training_images": 24,
+        "validation_images": 6
+      }
+    }
+  }
+}

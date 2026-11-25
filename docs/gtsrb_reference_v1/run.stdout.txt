@@ -1,0 +1,21 @@
+train 5808 imgs/96 tracks, val 1452 imgs/24 tracks, device mps
+epoch 1 val_acc 0.7858
+epoch 2 val_acc 0.8891
+epoch 3 val_acc 0.9174
+epoch 4 val_acc 0.8698
+epoch 5 val_acc 0.9649
+epoch 6 val_acc 0.8988
+epoch 7 val_acc 0.9787
+epoch 8 val_acc 0.9649
+epoch 9 val_acc 0.9731
+epoch 10 val_acc 0.9725
+epoch 11 val_acc 0.9910
+epoch 12 val_acc 0.9373
+epoch 13 val_acc 0.9449
+epoch 14 val_acc 0.9931
+epoch 15 val_acc 0.9787
+TEST accuracy 0.9137  n=2400
+[[701  19   0   0]
+ [ 81 549   0   0]
+ [ 43  36 276   5]
+ [  2  21   0 667]]

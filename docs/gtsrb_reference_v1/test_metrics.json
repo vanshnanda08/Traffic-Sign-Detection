@@ -1,0 +1,50 @@
+{
+  "task": "four-class GTSRB crop recognition (not detection; not mAP)",
+  "classes": [
+    "SPEED_LIMIT_30",
+    "SPEED_LIMIT_80",
+    "NO_ENTRY",
+    "COMPULSORY_KEEP_RIGHT"
+  ],
+  "gtsrb_ids": [
+    1,
+    5,
+    17,
+    38
+  ],
+  "test_images": 2400,
+  "accuracy": 0.91375,
+  "per_class_recall": {
+    "SPEED_LIMIT_30": 0.9736111111111111,
+    "SPEED_LIMIT_80": 0.8714285714285714,
+    "NO_ENTRY": 0.7666666666666667,
+    "COMPULSORY_KEEP_RIGHT": 0.9666666666666667
+  },
+  "confusion_matrix_rows_true_cols_pred": [
+    [
+      701,
+      19,
+      0,
+      0
+    ],
+    [
+      81,
+      549,
+      0,
+      0
+    ],
+    [
+      43,
+      36,
+      276,
+      5
+    ],
+    [
+      2,
+      21,
+      0,
+      667
+    ]
+  ],
+  "note": "Official test set has no track IDs; independence from Indian data is not certified."
+}
