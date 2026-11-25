@@ -50,6 +50,42 @@ The default starts fresh CPU evaluation without training. A run on a second
 physical Mac remains pending. The local [application](app/README.md) supports
 paired inference and local export.
 
+## Hardware and measured runtime
+
+All runs below used one Apple M3 Mac with 8 GiB of unified memory, PyTorch 2.8.0
+and Ultralytics 8.3.228.
+
+| Workload | Device | Time |
+|---|---|---|
+| Original training of A, 50 epochs ([W5 record](docs/W5_RECOVERY_V2_VERIFICATION.md)) | MPS | 2012.405 s |
+| Original training of C, 50 epochs (same record) | MPS | 1650.780 s |
+| Fresh evaluation of the W6 table: 14 runs, 630 model-source evaluations, all exit codes 0 ([status](release_evidence/w8a_v1/status.json)) | CPU | 214.557 s |
+
+The training times are supervisor monotonic seconds including native cleanup. A's
+wall-clock timestamps span 4670.935 s because of a task pause, so that figure is not
+continuous compute. The 214.557 s is evaluation only, not training. It ran on the
+same Mac with the same installed environment, so it is not a second-machine
+reproduction, which remains pending.
+
+## Changes from the Proposal
+
+- **Data.** The proposal requested 300 self-collected, self-annotated street images.
+  We use 300 images and labels from the public SDI v1 export and claim no collection
+  or annotation of them. Faculty approval is student-reported
+  ([details](docs/DATASET_PROTOCOL.md)). Many images are crops or illustrations.
+- **GTSRB reference.** The proposal planned a GTSRB reference. GTSRB is cropped-sign
+  classification, so the delivered reference is a separate four-class recognizer
+  with **91.375% (2,193/2,400)** test accuracy. It is not detection mAP and is not
+  comparable to the W6 table. The training split grouped crops by frame index, so
+  train and validation shared real tracks and the intended track exclusions were
+  ineffective. The validation score is leaky; the test figure is a historical single
+  run with that limitation ([audit](docs/gtsrb_reference_v1/evidence_audit.json)).
+  Faculty acceptance of this substitute is student-reported; written acceptance was
+  unavailable for verification.
+- **Outcome.** C is higher than A at O2 (+2.086 points) and O3 (+33.436) and lower
+  on clean, F1-F3 and O1. Only O3's paired 95% interval excludes zero
+  ([paired bootstrap](docs/evaluation_v3_stats/paired_ci.csv)).
+
 ## Credits and scope
 
 SDI/Roboflow v1 supplies the images and labels. Project work includes subset
